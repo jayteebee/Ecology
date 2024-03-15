@@ -4,6 +4,9 @@ import { useState, useRef, Fragment } from 'react'
 import type { StaticImageData } from 'next/image'
 import { Dialog, Transition } from '@headlessui/react'
 import Image from 'next/image'
+import ReactPlayer from 'react-player'
+import video from "../assets/StitchedBatTracking.mp4"
+
 
 interface ModalVideoProps {
   thumb: StaticImageData
@@ -28,6 +31,8 @@ export default function ModalVideo({
   const videoRef = useRef<HTMLVideoElement>(null)
 
   return (
+
+ 
     <div>
 
       {/* Video thumbnail */}
