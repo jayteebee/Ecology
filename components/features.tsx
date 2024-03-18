@@ -6,8 +6,9 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Learn more about how thermal imaging cameras can benefit your ecological surveys.</h2>
-            <p className="text-xl text-gray-400">This topic has become especially important now that the guidelines for bat ecological surveys have been updated to suggest use of thermal vision cameras.</p>
+            <h2 className="h2 mb-4">
+Discover the advantages of using thermal imaging cameras in your ecological surveys. </h2>
+            <p className="text-xl text-gray-400">The importance of this topic has grown due to the latest changes in bat survey guidelines, now advising the use of thermal vision cameras.</p>
           </div>
 
           {/* Items */}

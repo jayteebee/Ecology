@@ -24,8 +24,8 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">Bat Ecology Package</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Some supporting text</p>
+            <h1 className="h1 mb-4" data-aos="fade-up">Affordable Thermal Vision for Bat Ecology Surveys</h1>
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Elevate your ecological surveys with cutting-edge thermal imaging technology, designed to enhance bat research and conservation efforts.</p>
 
             
             {/* <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
@@ -39,14 +39,14 @@ export default function Hero() {
 
           </div>
 
-          <ModalVideo
+          {/* <ModalVideo
             thumb={VideoThumb}
             thumbWidth={1024}
             thumbHeight={576}
             thumbAlt="Modal video thumbnail"
             video="/videos/video.mp4"
             videoWidth={1920}
-            videoHeight={1080} />
+            videoHeight={1080} /> */}
 
         </div>
 

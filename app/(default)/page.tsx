@@ -6,12 +6,26 @@ export const metadata = {
 import Hero from '@/components/hero'
 import Features from '@/components/features'
 import Zigzag from '@/components/zigzag'
+import ModalVideo from '@/components/modal-video'
 import Testimonials from '@/components/testimonials'
+import VideoThumb from '@/public/images/hero-image-01.jpg'
 
 export default function Home() {
   return (
     <>
       <Hero />
+      <div style={{paddingTop: "0"}}>
+              <ModalVideo
+            // thumb={VideoThumb}
+            // thumbWidth={1024}
+            // thumbHeight={576}
+            // thumbAlt="Modal video thumbnail"
+            video="/videos/video.mp4"
+            // videoWidth={1920}
+            // videoHeight={1080} 
+            />
+      </div>
+
       <Features />
       <Zigzag />
       <Testimonials />
