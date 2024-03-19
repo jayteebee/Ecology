@@ -1,0 +1,27 @@
+.backgroundContainer {
+    position: relative;
+    width: 100%;
+    min-height: 100vh; /* Ensures it covers at least the viewport height, but can grow */
+    display: flex; /* Use flex to ensure it can grow with the content */
+    flex-direction: column; /* Adjust as needed based on your content layout */
+
+  }
+  
+  .backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    object-fit: cover; 
+       opacity: 0.8;
+  }
+  
+  .overlayContent {
+    position: relative; /* Ensure it's relative to flex-grow if needed */
+    z-index: 1;
+    width: 100%;
+    flex-grow: 1; /* Allow it to expand and push the parent container */
+  }
+  

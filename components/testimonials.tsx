@@ -13,7 +13,7 @@ export default function Testimonials() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Testimonials</h2>
-            <p className="text-xl text-gray-400">Here's what some of our prior customers have said.</p>
+            <p className="text-xl text-black-400">Here's what some of our prior customers have said.</p>
           </div>
 
           {/* Testimonials */}
@@ -29,9 +29,9 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">Text...</blockquote>
-              <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
+              <blockquote className="text-lg text-black-400 grow">Text...</blockquote>
+              <div className="text-black-700 font-medium mt-6 pt-5 border-t border-gray-700">
+                <cite className="text-black-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-black-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
               </div>
             </div>
 
@@ -45,9 +45,9 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">Text..</blockquote>
-              <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
+              <blockquote className="text-lg text-black-400 grow">Text..</blockquote>
+              <div className="text-black-700 font-medium mt-6 pt-5 border-t border-gray-700">
+                <cite className="text-black-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-black-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
               </div>
             </div>
 
@@ -61,9 +61,9 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">Text..</blockquote>
-              <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
+              <blockquote className="text-lg text-black-400 grow">Text..</blockquote>
+              <div className="text-black-700 font-medium mt-6 pt-5 border-t border-gray-700">
+                <cite className="text-black-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-black-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
               </div>
             </div>
 
