@@ -18,7 +18,7 @@ export default function Zigzag() {
           </div>
 
           <div style={{position: "relative", paddingTop: "56.25%", height: 0, overflow: "hidden"}}>
-  <iframe src="https://lumalabs.ai/embed/3ef325de-03c5-4a38-9e6d-d5025537c4a6?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%", paddingBottom: "10vh"}} title="luma embed" allowfullscreen></iframe>
+  <iframe src="https://lumalabs.ai/embed/3ef325de-03c5-4a38-9e6d-d5025537c4a6?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%", paddingBottom: "10vh"}} title="luma embed" allowFullScreen></iframe>
 </div>
 
 

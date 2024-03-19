@@ -27,7 +27,7 @@ export default function Features() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">
 Discover the advantages of using thermal imaging cameras in your ecological surveys. </h2>
-            <p className="text-xl text-black-400">The importance of this topic has grown due to the latest changes in bat survey guidelines, now advising the use of thermal vision cameras.</p>
+            <p className="text-xl text-white">The importance of this topic has grown due to the latest changes in bat survey guidelines, now advising the use of thermal vision cameras.</p>
           </div>
 
           {/* Items */}
@@ -40,7 +40,7 @@ Discover the advantages of using thermal imaging cameras in your ecological surv
     <Image src={stopWatch} alt="Stopwatch" className="rounded-full"/>
   </div>
   <h4 className="h4 mb-2">Save Time</h4>
-  <p className="text-lg text-black-400 text-center">Save hours per survey with our high-quality setup, allowing more focus on research insights instead of analyzing footage.</p>
+  <p className="text-lg text-white text-center">Save hours per survey with our high-quality setup, allowing more focus on research insights instead of analyzing footage.</p>
 </div>
 
 
@@ -54,7 +54,7 @@ Discover the advantages of using thermal imaging cameras in your ecological surv
     <Image src={money} alt="Stopwatch" className="rounded-full"/>
   </div>
   <h4 className="h4 mb-2">Save Money</h4>
-              <p className="text-lg text-black-400 text-center">Save money and cut long-term costs by reducing analysis time and avoiding legal risks with more accurate data.</p>
+              <p className="text-lg text-white text-center">Save money and cut long-term costs by reducing analysis time and avoiding legal risks with more accurate data.</p>
 
  </div>
 
@@ -69,7 +69,7 @@ Discover the advantages of using thermal imaging cameras in your ecological surv
                 </g>
               </svg>
               <h4 className="h4 mb-2">Increase Accuracy</h4>
-              <p className="text-lg text-black-400 text-center">Take advantage of powerful software features designed to provide highly accurate data, including tracking the path of every bat in the cameras view, as well as date/time stamping of when the event took place.</p>
+              <p className="text-lg text-white text-center">Take advantage of powerful software features designed to provide highly accurate data, including tracking the path of every bat in the cameras view, as well as date/time stamping of when the event took place.</p>
             </div>
 
             {/* 4th item */}
@@ -82,7 +82,7 @@ Discover the advantages of using thermal imaging cameras in your ecological surv
                 </g>
               </svg>
               <h4 className="h4 mb-2">Robust, Evidential Reports</h4>
-              <p className="text-lg text-black-400 text-center">False positives can be quite troublesome. The monetary consequences of a wrong call can be severe and there’s potential for litigation if you’re working on a big project. Making use of a thermal camera greatly reduces these risks.</p>
+              <p className="text-lg text-white text-center">False positives can be quite troublesome. The monetary consequences of a wrong call can be severe and there’s potential for litigation if you’re working on a big project. Making use of a thermal camera greatly reduces these risks.</p>
             </div>
 
             {/* 5th item */}
@@ -95,7 +95,7 @@ Discover the advantages of using thermal imaging cameras in your ecological surv
     </g>
   </svg>
   <h4 className="h4 mb-2 text-center">Definitive Absence/Presence</h4>
-  <p className="text-lg text-black-400 text-center">Get definitive presence/absence decisions and frame-by-frame bat emergence tracking with our ecology package.</p>
+  <p className="text-lg text-white text-center">Get definitive presence/absence decisions and frame-by-frame bat emergence tracking with our ecology package.</p>
 </div>
 
 
@@ -110,7 +110,7 @@ Discover the advantages of using thermal imaging cameras in your ecological surv
                 </g>
               </svg>
               <h4 className="h4 mb-2">Minimal Setup</h4>
-              <p className="text-lg text-black-400 text-center">Our ecology package is fully portable, can be used in-field without any long cables tracking back to a power source, and will integrate with any tablet or laptop you currently have.</p>
+              <p className="text-lg text-white text-center">Our ecology package is fully portable, can be used in-field without any long cables tracking back to a power source, and will integrate with any tablet or laptop you currently have.</p>
             </div>
 
           </div>

@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <div style={{paddingTop: "0"}}>
+      <div >
               <ModalVideo
             // thumb={VideoThumb}
             // thumbWidth={1024}

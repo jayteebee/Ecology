@@ -4,7 +4,17 @@
     min-height: 100vh; /* Ensures it covers at least the viewport height, but can grow */
     display: flex; /* Use flex to ensure it can grow with the content */
     flex-direction: column; /* Adjust as needed based on your content layout */
-
+  }
+  
+  .backgroundContainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 0; /* Positioned between the image and the content */
   }
   
   .backgroundImage {
@@ -13,14 +23,15 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1;
-    object-fit: cover; 
-       opacity: 0.8;
+    z-index: -1; /* Ensure the image stays behind the overlay */
+    object-fit: cover;
+    opacity: 0.6; 
+    background: rgba(0, 0, 0, 0.6);
   }
   
   .overlayContent {
-    position: relative; /* Ensure it's relative to flex-grow if needed */
-    z-index: 1;
+    position: relative; /* Ensure it's positioned above the overlay */
+    z-index: 1; /* Above the overlay */
     width: 100%;
     flex-grow: 1; /* Allow it to expand and push the parent container */
   }
