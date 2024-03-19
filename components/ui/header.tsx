@@ -12,7 +12,7 @@ export default function Header() {
           <div className="shrink-0 mr-4">
             {/* Logo */}
             
-              <Image src={TVELogo} width="100" height="100" alt="logo" />
+              <Image src={TVELogo} width="200" height="200" alt="logo" />
             
           </div>
 
@@ -37,7 +37,7 @@ export default function Header() {
           </nav> 
           */}
 
-          <MobileMenu />
+          {/* <MobileMenu /> */}
 
         </div>
       </div>
