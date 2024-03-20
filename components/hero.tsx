@@ -20,10 +20,10 @@ export default function Hero() {
         </div>
 
         {/* Hero content */}
-        <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
+        <div className="relative pt-16 md:pt-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-3xl mx-auto text-center pb-6 md:pb-8">
             <h1 className="h1 mb-4" data-aos="fade-up">Affordable Thermal Vision for Bat Ecology Surveys</h1>
             <p className="text-xl text-400 mb-8" data-aos="fade-up" data-aos-delay="200">Elevate your ecological surveys with cutting-edge thermal imaging technology, designed to enhance bat research and conservation efforts.</p>
 
