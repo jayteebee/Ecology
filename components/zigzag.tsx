@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
-import FeatImage01 from '@/public/images/a700-removebg-preview.png'
-import FeatImage02 from '@/public/images/FLIRResearch-Studio-perpetual.jpg'
+import FeatImage01 from '@/public/images/a700PNG.png'
+import FeatImage02 from '@/public/images/frs.png'
 import FeatImage03 from '@/public/images/equipment.webp'
 
 export default function Zigzag() {
