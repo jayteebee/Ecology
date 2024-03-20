@@ -1,46 +1,9 @@
 'use client'
 
-// import { useRef, useEffect } from 'react'
-// import type { StaticImageData } from 'next/image'
-
-// interface VideoProps {
-//   video: string;
-// }
-
-// export default function AutoPlayVideo({
-//   video,
-// }: VideoProps) {
-//   const videoRef = useRef<HTMLVideoElement>(null);
-
-//   useEffect(() => {
-//     // Ensure the video plays as soon as the component mounts
-//     if (videoRef.current) {
-//       videoRef.current.play();
-//     }
-//   }, []);
-
-//   return (
-//     <div className="w-full h-full flex justify-center items-center">
-//       <video
-//         ref={videoRef}
-//         src={video}
-//         type="video/mp4"
-//         autoPlay
-//         muted
-//         loop
-//         className="w-full h-3/4 object-cover"
-//       >
-//         Your browser does not support the video tag.
-//       </video>
-//       <p className="text-xl text-white mb-8" style={{zIndex: 1000}} data-aos="fade-up" data-aos-delay="200">Elevate your ecological surveys with cutting-edge thermal imaging technology, designed to enhance bat research and conservation efforts.</p>
-
-//     </div>
-//   );
-// }
-
 
 import { useRef, useEffect } from 'react';
 import type { StaticImageData } from 'next/image';
+import { Button } from './Button';
 
 interface VideoProps {
   video: string;
@@ -71,7 +34,6 @@ export default function AutoPlayVideo({
       >
         Your browser does not support the video tag.
       </video>
-
     </div>
   );
 }

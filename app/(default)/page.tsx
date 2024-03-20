@@ -9,12 +9,14 @@ import Zigzag from '@/components/zigzag'
 import ModalVideo from '@/components/modal-video'
 import Testimonials from '@/components/testimonials'
 import VideoThumb from '@/public/images/hero-image-01.jpg'
+import { Button } from '@/components/Button'
+import Maps from '@/components/maps'
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <div >
+      <div>
               <ModalVideo
             // thumb={VideoThumb}
             // thumbWidth={1024}
@@ -29,7 +31,7 @@ export default function Home() {
       <Features />
       <Zigzag />
       <Testimonials />
-
+      <Maps lat={51.5252} lng={-2.5408} zoom={15} />
     </>
   )
 }
