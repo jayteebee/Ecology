@@ -6,8 +6,14 @@ const containerStyle = {
   height: '400px'
 };
 
+interface MapsProps {
+    lat: number;
+    lng: number;
+    zoom?: number; // The question mark makes this property optional
+  }
+
 // Refactor the MapComponent to accept props
-const Maps = ({ lat, lng, zoom = 10 }) => { // Default zoom level is set to 10
+const Maps: React.FC<MapsProps> = ({ lat, lng, zoom = 10 }) => { // Default zoom level is set to 10
   const location = {
     lat,
     lng
@@ -15,7 +21,7 @@ const Maps = ({ lat, lng, zoom = 10 }) => { // Default zoom level is set to 10
 
   return (
     <LoadScript
-      googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY" // Replace with your API key
+      googleMapsApiKey="AIzaSyBEmYwG6cwah68Dgl5bkTMBNVr6nyUebG4" 
     >
       <GoogleMap
         mapContainerStyle={containerStyle}

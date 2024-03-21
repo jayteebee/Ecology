@@ -10,7 +10,7 @@ import ModalVideo from '@/components/modal-video'
 import Testimonials from '@/components/testimonials'
 import VideoThumb from '@/public/images/hero-image-01.jpg'
 import { Button } from '@/components/Button'
-import Maps from '@/components/maps'
+import Maps from '../../components/Maps'
 
 export default function Home() {
   return (
