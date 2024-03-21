@@ -31,7 +31,7 @@ export default function Testimonials() {
               </div>
               <blockquote className="text-lg text-black-400 grow">Text...</blockquote>
               <div className="text-black-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-black-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-black-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
+                <cite className="text-black-200 not-italic">Name</cite> - <a className="text-purple-600 hover:text-black-200 transition duration-150 ease-in-out" href="#0">Company</a>
               </div>
             </div>
 
@@ -47,7 +47,7 @@ export default function Testimonials() {
               </div>
               <blockquote className="text-lg text-black-400 grow">Text..</blockquote>
               <div className="text-black-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-black-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-black-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
+                <cite className="text-black-200 not-italic">Name</cite> - <a className="text-purple-600 hover:text-black-200 transition duration-150 ease-in-out" href="#0">Company</a>
               </div>
             </div>
 
@@ -63,7 +63,7 @@ export default function Testimonials() {
               </div>
               <blockquote className="text-lg text-black-400 grow">Text..</blockquote>
               <div className="text-black-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-black-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-black-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
+                <cite className="text-black-200 not-italic">Name</cite> - <a className="text-purple-600 hover:text-black-200 transition duration-150 ease-in-out" href="#0">Company</a>
               </div>
             </div>
 
