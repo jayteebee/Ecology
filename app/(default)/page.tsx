@@ -1,3 +1,5 @@
+
+
 export const metadata = {
   title: 'Ecology',
   description: 'More information about our ecology package',
@@ -10,8 +12,12 @@ import ModalVideo from '@/components/modal-video'
 import Testimonials from '@/components/testimonials'
 
 import Maps from '../../components/Maps'
+import { useRef } from 'react'
 
 export default function Home() {
+
+
+
   return (
     <>
       <Hero />
@@ -25,7 +31,7 @@ export default function Home() {
       <Features />
       <Zigzag />
       <Testimonials />
-      <Maps />
+      <div ><Maps /></div>
     </>
   )
 }

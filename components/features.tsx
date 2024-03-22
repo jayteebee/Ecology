@@ -45,7 +45,7 @@ export default function Features() {
                 data-aos="fade-up"
                 data-aos-anchor="[data-aos-id-blocks]"
               >
-                <div className="w-16 h-16 mb-4 rounded-full bg-purple-600 flex items-center justify-center overflow-hidden">
+                <div className="w-16 h-16 mb-4 rounded-full bg-green-100 flex items-center justify-center overflow-hidden">
                   <Image
                     src={stopWatch}
                     alt="Stopwatch"
@@ -66,7 +66,7 @@ export default function Features() {
                 data-aos="fade-up"
                 data-aos-anchor="[data-aos-id-blocks]"
               >
-                <div className="w-16 h-16 mb-4 rounded-full bg-purple-600 flex items-center justify-center overflow-hidden">
+                <div className="w-16 h-16 mb-4 rounded-full bg-green-100 flex items-center justify-center overflow-hidden">
                   <Image src={money} alt="Stopwatch" className="rounded-full" />
                 </div>
                 <h4 className="h4 mb-2">Save Money</h4>
