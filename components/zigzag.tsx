@@ -35,7 +35,7 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Never miss a bat.</div>
+                  <div className="font-architects-daughter text-xl text-green-200 mb-2">Never miss a bat.</div>
                   <h3 className="h3 mb-3">100% Accuracy with Presence/Absence decisions.</h3>
                   <p className="text-xl text-black-400 mb-4">By making use of a thermal imaging camera, you can ensure a definitive answer on whether there are bats located within the frame. Our cameras;</p>
                   <ul className="text-lg text-black-400 -mb-2">
@@ -71,7 +71,7 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Sophisticated Software, Simplified.</div>
+                  <div className="font-architects-daughter text-xl text-green-200 mb-2">Sophisticated Software, Simplified.</div>
                   <h3 className="h3 mb-3">FLIR Research Studio</h3>
                   <p className="text-xl text-black-400 mb-4">FLIR have developed software to work with their entire range of cameras, making it very versatile and capable. We will;</p>
                   <ul className="text-lg text-black-400 -mb-2">
@@ -107,7 +107,7 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Scenario dictates equipment.</div>
+                  <div className="font-architects-daughter text-xl text-green-200 mb-2">Scenario dictates equipment.</div>
                   <h3 className="h3 mb-3">Choosing the right equipment for the job is essential.</h3>
                   <p className="text-xl text-black-400 mb-4">You wouldn't wear a rain coat on a sunny day, and you wouldn't take a thermal camera on a £200 garden survey... But you would use a thermal camera;</p>
                   <ul className="text-lg text-black-400 -mb-2">

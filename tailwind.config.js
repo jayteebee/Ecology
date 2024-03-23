@@ -43,7 +43,9 @@ module.exports = {
           900: '#6A1B9A',
         },
         green : {
-          100: "#285B16"
+          100: "#285B16",
+          200: "#a2df8b",
+          300: "#5aa040"
         },
         // Adding text colors
          text:

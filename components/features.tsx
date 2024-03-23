@@ -45,7 +45,7 @@ export default function Features() {
                 data-aos="fade-up"
                 data-aos-anchor="[data-aos-id-blocks]"
               >
-                <div className="w-16 h-16 mb-4 rounded-full bg-green-100 flex items-center justify-center overflow-hidden">
+                <div className="w-16 h-16 mb-4 rounded-full bg-green-200 flex items-center justify-center overflow-hidden">
                   <Image
                     src={stopWatch}
                     alt="Stopwatch"
@@ -66,7 +66,7 @@ export default function Features() {
                 data-aos="fade-up"
                 data-aos-anchor="[data-aos-id-blocks]"
               >
-                <div className="w-16 h-16 mb-4 rounded-full bg-green-100 flex items-center justify-center overflow-hidden">
+                <div className="w-16 h-16 mb-4 rounded-full bg-green-200 flex items-center justify-center overflow-hidden">
                   <Image src={money} alt="Stopwatch" className="rounded-full" />
                 </div>
                 <h4 className="h4 mb-2">Save Money</h4>
@@ -89,7 +89,7 @@ export default function Features() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <rect
-                    className="fill-current text-purple-600"
+                    className="fill-current text-green-300"
                     width="64"
                     height="64"
                     rx="32"
@@ -142,7 +142,7 @@ export default function Features() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <rect
-                    className="fill-current text-purple-600"
+                    className="fill-current text-green-300"
                     width="64"
                     height="64"
                     rx="32"
@@ -188,7 +188,7 @@ export default function Features() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <rect
-                    className="fill-current text-purple-600"
+                    className="fill-current text-green-300"
                     width="64"
                     height="64"
                     rx="32"
@@ -231,7 +231,7 @@ export default function Features() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <rect
-                    className="fill-current text-purple-600"
+                    className="fill-current text-green-300"
                     width="64"
                     height="64"
                     rx="32"
