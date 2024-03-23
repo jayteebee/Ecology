@@ -28,10 +28,14 @@ export default function Home() {
             />
       </div>
 
+<div id='features'>
       <Features />
+</div>
+<div id='3drender'>
       <Zigzag />
+</div>
       <Testimonials />
-      <div ><Maps /></div>
+      <div id='maps'><Maps /></div>
     </>
   )
 }
