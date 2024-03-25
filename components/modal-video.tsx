@@ -26,7 +26,7 @@ export default function AutoPlayVideo({
       <video
         ref={videoRef}
         src={video}
-        type="video/mp4"
+        // type="video/mp4"
         autoPlay
         muted
         loop
