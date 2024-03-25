@@ -8,6 +8,7 @@ import Features from "@/components/features";
 import Zigzag from "@/components/zigzag";
 import ModalVideo from "@/components/modal-video";
 import Testimonials from "@/components/testimonials";
+import Calendar from "@/components/Calendar";
 
 import Maps from "../../components/Maps";
 import { useRef } from "react";
@@ -27,6 +28,7 @@ export default function Home() {
         <Zigzag />
       </div>
       <Testimonials />
+      <Calendar />
       <div id="maps">
         <Maps />
       </div>
