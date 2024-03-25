@@ -1,5 +1,5 @@
-import stopWatch from "../public/images/icons8-time-50.png";
-import money from "../public/images/icons8-money-50.png";
+import stopWatch from "../public/images/stopwatch.png";
+import money from "../public/images/money.png";
 import forest from "../public/images/forestOutline.png";
 
 import styles from "../app/css/styles/Features.module.css";
@@ -45,7 +45,7 @@ export default function Features() {
                 data-aos="fade-up"
                 data-aos-anchor="[data-aos-id-blocks]"
               >
-                <div className="w-16 h-16 mb-4 rounded-full bg-green-200 flex items-center justify-center overflow-hidden">
+                <div className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden">
                   <Image
                     src={stopWatch}
                     alt="Stopwatch"
@@ -66,7 +66,7 @@ export default function Features() {
                 data-aos="fade-up"
                 data-aos-anchor="[data-aos-id-blocks]"
               >
-                <div className="w-16 h-16 mb-4 rounded-full bg-green-200 flex items-center justify-center overflow-hidden">
+                <div className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden">
                   <Image src={money} alt="Stopwatch" className="rounded-full" />
                 </div>
                 <h4 className="h4 mb-2">Save Money</h4>
@@ -102,18 +102,18 @@ export default function Features() {
                     fillRule="evenodd"
                   >
                     <ellipse
-                      className="stroke-current text-purple-300"
+                      className="stroke-current text-purple-100"
                       cx="11"
                       cy="11"
                       rx="5.5"
                       ry="11"
                     />
                     <path
-                      className="stroke-current text-purple-100"
+                      className="stroke-current text-green-200"
                       d="M11 0v22M0 11h22"
                     />
                     <circle
-                      className="stroke-current text-purple-100"
+                      className="stroke-current text-green-200"
                       cx="11"
                       cy="11"
                       r="11"

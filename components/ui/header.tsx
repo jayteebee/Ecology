@@ -20,12 +20,12 @@ export default function Header() {
 
   return (
     <header className="absolute w-full z-30">
-      <div className="max-w-6xl px-4 sm:px-6">
+      <div className="w-full px-4 sm:px-6">
         <div className="flex items-end justify-between h-20">
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-            <Image src={TVELogo} width="200" height="200" alt="logo" />
+            <Image src={TVELogo} width="250" height="250" alt="logo" />
           </div>
 
           {/* Navigation menu for larger screens */}
