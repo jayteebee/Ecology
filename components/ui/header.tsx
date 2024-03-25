@@ -34,7 +34,7 @@ export default function Header() {
               <li>
                 <p
                   onClick={(e) => scrollToSection(e, "maps")}
-                  className="font-medium text-purple-600 hover:text-purple-200 px-4 py-3 flex items-center transition duration-150 ease-in-out cursor-pointer"
+                  className="font-medium text-green-100 hover:text-blue-500 hover:underline px-4 py-3 flex items-center transition duration-150 ease-in-out cursor-pointer"
                 >
                   Maps
                 </p>
@@ -43,7 +43,7 @@ export default function Header() {
               <li>
                 <p
                   onClick={(e) => scrollToSection(e, "features")}
-                  className="font-medium text-purple-600 hover:text-purple-200 px-4 py-3 flex items-center transition duration-150 ease-in-out cursor-pointer"
+                  className="font-medium text-green-100 hover:text-blue-500 hover:underline px-4 py-3 flex items-center transition duration-150 ease-in-out cursor-pointer"
                 >
                   Features
                 </p>
@@ -52,7 +52,7 @@ export default function Header() {
               <li>
                 <p
                   onClick={(e) => scrollToSection(e, "3drender")}
-                  className="font-medium text-purple-600 hover:text-purple-200 px-4 py-3 flex items-center transition duration-150 ease-in-out cursor-pointer"
+                  className="font-medium text-green-100 hover:text-blue-500 hover:underline px-4 py-3 flex items-center transition duration-150 ease-in-out cursor-pointer"
                 >
                   3D Render
                 </p>
