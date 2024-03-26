@@ -159,7 +159,7 @@ export default function Features() {
                       d="M17 22v-6.3a8.97 8.97 0 003-6.569A9.1 9.1 0 0011.262 0 9 9 0 002 9v1l-2 5 2 1v4a2 2 0 002 2h4a5 5 0 005-5v-5"
                     />
                     <circle
-                      className="stroke-current text-purple-300"
+                      className="stroke-current text-green-200"
                       cx="13"
                       cy="9"
                       r="3"
@@ -204,7 +204,7 @@ export default function Features() {
                       d="M29 42h10.229a2 2 0 001.912-1.412l2.769-9A2 2 0 0042 29h-7v-4c0-2.373-1.251-3.494-2.764-3.86a1.006 1.006 0 00-1.236.979V26l-5 6"
                     />
                     <path
-                      className="stroke-current text-purple-300"
+                      className="stroke-current text-green-200"
                       d="M22 30h4v12h-4z"
                     />
                   </g>
@@ -248,7 +248,7 @@ export default function Features() {
                       d="M17 2V0M19.121 2.879l1.415-1.415M20 5h2M19.121 7.121l1.415 1.415M17 8v2M14.879 7.121l-1.415 1.415M14 5h-2M14.879 2.879l-1.415-1.415"
                     />
                     <circle
-                      className="stroke-current text-purple-300"
+                      className="stroke-current text-green-200"
                       cx="17"
                       cy="5"
                       r="3"
