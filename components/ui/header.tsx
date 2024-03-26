@@ -33,10 +33,10 @@ export default function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <p
-                  onClick={(e) => scrollToSection(e, "maps")}
+                  onClick={(e) => scrollToSection(e, "calendar")}
                   className="font-medium text-green-100 hover:text-blue-500 hover:underline px-4 py-3 flex items-center transition duration-150 ease-in-out cursor-pointer"
                 >
-                  Maps
+                  Arrange A Call
                 </p>
               </li>
 

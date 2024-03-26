@@ -3,7 +3,7 @@ import React from 'react';
 
 const Maps: React.FC = () => {
   return (
-    <div className="flex justify-center gap-5 flex-wrap mx-auto mb-6">
+    <div className="flex justify-center gap-5 flex-wrap mx-auto mb-6 mt-6">
       <div className="text-center">
         <h2 className="h2 mb-4">By Train</h2>
         <iframe title="By Train" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d39727.07729024622!2d-2.543228!3d51.514274!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48719048d3523e8d%3A0x915c1ab91ecb9ff4!2sBristol%20Parkway!5e0!3m2!1sen!2suk!4v1711012653290!5m2!1sen!2suk" width="400" height="300" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="rounded-lg"></iframe>

@@ -28,7 +28,9 @@ export default function Home() {
         <Zigzag />
       </div>
       <Testimonials />
+      <div id="calendar">
       <Calendar />
+      </div>
       <div id="maps">
         <Maps />
       </div>
