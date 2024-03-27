@@ -4,6 +4,8 @@ import TestimonialImage01 from '@/public/images/testimonial-01.jpg'
 import TestimonialImage02 from '@/public/images/testimonial-02.jpg'
 import TestimonialImage03 from '@/public/images/testimonial-03.jpg'
 
+import { TESTIMONIAL_HEADER, TESTIMONIAL_ITEM_CONTENT } from '@/public/content/content'
+
 export default function Testimonials() {
   return (
     <section>
@@ -12,8 +14,8 @@ export default function Testimonials() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Testimonials</h2>
-            <p className="text-xl text-black-400">Here's what some of our prior customers have said.</p>
+            <h2 className="h2 mb-4">{TESTIMONIAL_HEADER.HEADER}</h2>
+            <p className="text-xl text-black-400">{TESTIMONIAL_HEADER.SUBHEADER}</p>
           </div>
 
           {/* Testimonials */}
@@ -29,9 +31,9 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-black-400 grow">Text...</blockquote>
+              <blockquote className="text-lg text-black-400 grow">{TESTIMONIAL_ITEM_CONTENT[0].TEXT}</blockquote>
               <div className="text-black-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-black-200 not-italic">Name</cite> - <a className="text-purple-600 hover:text-black-200 transition duration-150 ease-in-out" href="#0">Company</a>
+                <cite className="text-black-200 not-italic">{TESTIMONIAL_ITEM_CONTENT[0].NAME}</cite> - <a className="text-purple-600 hover:text-black-200 transition duration-150 ease-in-out" href="#0">{TESTIMONIAL_ITEM_CONTENT[0].COMPANY}</a>
               </div>
             </div>
 
@@ -45,9 +47,9 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-black-400 grow">Text..</blockquote>
+              <blockquote className="text-lg text-black-400 grow">{TESTIMONIAL_ITEM_CONTENT[1].TEXT}</blockquote>
               <div className="text-black-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-black-200 not-italic">Name</cite> - <a className="text-purple-600 hover:text-black-200 transition duration-150 ease-in-out" href="#0">Company</a>
+                <cite className="text-black-200 not-italic">{TESTIMONIAL_ITEM_CONTENT[1].NAME}</cite> - <a className="text-purple-600 hover:text-black-200 transition duration-150 ease-in-out" href="#0">{TESTIMONIAL_ITEM_CONTENT[1].COMPANY}</a>
               </div>
             </div>
 
@@ -61,9 +63,9 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-black-400 grow">Text..</blockquote>
+              <blockquote className="text-lg text-black-400 grow">{TESTIMONIAL_ITEM_CONTENT[2].TEXT}</blockquote>
               <div className="text-black-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-black-200 not-italic">Name</cite> - <a className="text-purple-600 hover:text-black-200 transition duration-150 ease-in-out" href="#0">Company</a>
+                <cite className="text-black-200 not-italic">{TESTIMONIAL_ITEM_CONTENT[2].NAME}</cite> - <a className="text-purple-600 hover:text-black-200 transition duration-150 ease-in-out" href="#0">{TESTIMONIAL_ITEM_CONTENT[2].COMPANY}</a>
               </div>
             </div>
 

@@ -5,6 +5,7 @@ import forest from "../public/images/forestOutline.png";
 import styles from "../app/css/styles/Features.module.css";
 
 import Image from "next/image";
+import {FEATURES_HEADER, FEATURES_ITEM_CONTENT} from "../public/content/content";
 
 export default function Features() {
   return (
@@ -23,13 +24,10 @@ export default function Features() {
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
               <h2 className="h2 mb-4">
-                Discover the advantages of using thermal imaging cameras in your
-                ecological surveys.{" "}
+                {FEATURES_HEADER.HEADER}
               </h2>
               <p className="text-xl text-white">
-                The importance of this topic has grown due to the latest changes
-                in bat survey guidelines, now advising the use of thermal vision
-                cameras.
+                {FEATURES_HEADER.SUBHEADER}
               </p>
             </div>
 
@@ -52,10 +50,9 @@ export default function Features() {
                     className="rounded-full"
                   />
                 </div>
-                <h4 className="h4 mb-2">Save Time</h4>
+                <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[0].TITLE}</h4>
                 <p className="text-lg text-white text-center">
-                  Save hours per survey with our high-quality setup, allowing
-                  more focus on research insights instead of analyzing footage.
+                  {FEATURES_ITEM_CONTENT[0].TEXT}
                 </p>
               </div>
 
@@ -69,10 +66,9 @@ export default function Features() {
                 <div className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden">
                   <Image src={money} alt="Stopwatch" className="rounded-full" />
                 </div>
-                <h4 className="h4 mb-2">Save Money</h4>
+                <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[1].TITLE}</h4>
                 <p className="text-lg text-white text-center">
-                  Save money and cut long-term costs by reducing analysis time
-                  and avoiding legal risks with more accurate data.
+                {FEATURES_ITEM_CONTENT[1].TEXT}
                 </p>
               </div>
 
@@ -120,12 +116,9 @@ export default function Features() {
                     />
                   </g>
                 </svg>
-                <h4 className="h4 mb-2">Increase Accuracy</h4>
+                <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[2].TITLE}</h4>
                 <p className="text-lg text-white text-center">
-                  Take advantage of powerful software features designed to
-                  provide highly accurate data, including tracking the path of
-                  every bat in the cameras view, as well as date/time stamping
-                  of when the event took place.
+                {FEATURES_ITEM_CONTENT[2].TEXT}
                 </p>
               </div>
 
@@ -166,12 +159,9 @@ export default function Features() {
                     />
                   </g>
                 </svg>
-                <h4 className="h4 mb-2">Robust, Evidential Reports</h4>
+                <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[3].TITLE}</h4>
                 <p className="text-lg text-white text-center">
-                  False positives can be quite troublesome. The monetary
-                  consequences of a wrong call can be severe and there’s
-                  potential for litigation if you’re working on a big project.
-                  Making use of a thermal camera greatly reduces these risks.
+                {FEATURES_ITEM_CONTENT[3].TEXT}
                 </p>
               </div>
 
@@ -210,11 +200,10 @@ export default function Features() {
                   </g>
                 </svg>
                 <h4 className="h4 mb-2 text-center">
-                  Definitive Absence/Presence
+                {FEATURES_ITEM_CONTENT[4].TITLE}
                 </h4>
                 <p className="text-lg text-white text-center">
-                  Get definitive presence/absence decisions and frame-by-frame
-                  bat emergence tracking with our ecology package.
+                {FEATURES_ITEM_CONTENT[4].TEXT}
                 </p>
               </div>
 
@@ -259,11 +248,9 @@ export default function Features() {
                     />
                   </g>
                 </svg>
-                <h4 className="h4 mb-2">Minimal Setup</h4>
+                <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[5].TITLE}</h4>
                 <p className="text-lg text-white text-center">
-                  Our ecology package is fully portable, can be used in-field
-                  without any long cables tracking back to a power source, and
-                  will integrate with any tablet or laptop you currently have.
+                {FEATURES_ITEM_CONTENT[5].TEXT}
                 </p>
               </div>
             </div>
