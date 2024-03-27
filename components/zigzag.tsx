@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import FeatImage01 from '@/public/images/a700PNG.png'
 import FeatImage02 from '@/public/images/frs.png'
-import FeatImage03 from '@/public/images/equipment.webp'
+import FeatImage03 from '@/public/images/flirBat.png'
 
 import { ZIGZAG_HEADER, ZIGZAG_ITEM_CONTENT } from '@/public/content/content'
 
@@ -104,7 +104,7 @@ export default function Zigzag() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage03} width={540} height={405} alt="Features 03" />
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage03} width={540} height={450} alt="Features 03" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
