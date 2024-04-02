@@ -41,24 +41,23 @@ export const ZIGZAG_ITEM_CONTENT = [
         TITLE: "FLIR A700sc camera",
         TEXT: "By making use of a thermal imaging camera, you can ensure a definitive answer on whether there are bats located within the frame. Our package;",
         BULLET_ONE: "Is sensitive to minute differences in temperature.",
-        BULLET_TWO: "Comes with a variety of lenses, ensuring coverage down a long hedge row or a wide gable wall (6, 14, 24, 42 or 80 degree).",
-        BULLET_THREE: "Has a Heavy duty Manfrotto tripod.",
+        BULLET_TWO: "Comes with a variety of lenses (6, 14, 24, 42 or 80 degree), ensuring coverage down a long hedge row or a wide gable wall.",
+        BULLET_THREE: "Has a heavy duty Manfrotto tripod.",
         BULLET_FOUR: "Has a power supply for up to 6 hours filming.",
         BULLET_FIVE: "Comes with a Windows Touchpad device for remote image streaming and camera control (any laptop can be used if preferred).",
-
     },
     {
         INTRO: "Sophisticated Software, Simplified.",
-        TITLE: "FLIR Research Studio",
-        TEXT: "FLIR have developed software to work with their entire range of cameras, making it very versatile and capable. We will;",
+        TITLE: "Hire Options",
+        TEXT: "We're able to offer a flexible hire option, ensuring you have the right equipment for the job, without the need to purchase outright.",
         BULLET_ONE: "Simplify the software for you, showing you the options you need to get the job done.",
         BULLET_TWO: "Show timestamps, replay events, and trigger recording only when a bat is present.",
         BULLET_THREE: "Enable single bat tracking through its entire flight path, showing definitive emergence."
     },
     {
         INTRO: "Scenario dictates equipment.",
-        TITLE: "Choosing the right equipment for the job is essential.",
-        TEXT: "You wouldn't wear a rain coat on a sunny day, and you wouldn't take a thermal camera on a £200 garden survey... But you would use a thermal camera;",
+        TITLE: "Purchase Options",
+        TEXT: "We understand that thermal imaging can present a budgeting challenge. Due to being a FLIR R&D Science Platinum Partner, we're able to offer a 20% purchase discount for ecologists.",
         BULLET_ONE: "On a complex project, where one camera could replace the manpower of 5+ people.",
         BULLET_TWO: "When use of external light sources could affect bat behaviour.",
         BULLET_THREE: "To help identify species in a crowded environment."
@@ -99,7 +98,7 @@ export const MAP_HEADER = [
         HEADER: "By Plane"
     },
     {
-        HEADER: "By Automobile"
+        HEADER: "By Car"
     },
 
 ]

@@ -9,15 +9,18 @@ import {FEATURES_HEADER, FEATURES_ITEM_CONTENT} from "../public/content/content"
 
 export default function Features() {
   return (
-    <div className={styles.backgroundContainer}>
-      <Image
-        src={forest}
-        layout="fill"
-        objectFit="cover"
-        quality={100}
-        alt="Background"
-        className={styles.backgroundImage}
-      />
+    <div >
+{/** 
+ *     // <Image
+    //     src={forest}
+    //     layout="fill"
+    //     objectFit="cover"
+    //     quality={100}
+    //     alt="Background"
+    //     className={styles.backgroundImage}
+    //   />
+ * 
+ */}
       <section className={styles.overlayContent}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="py-12 md:py-20">
@@ -26,7 +29,7 @@ export default function Features() {
               <h2 className="h2 mb-4">
                 {FEATURES_HEADER.HEADER}
               </h2>
-              <p className="text-xl text-white">
+              <p className="text-xl">
                 {FEATURES_HEADER.SUBHEADER}
               </p>
             </div>
@@ -51,7 +54,7 @@ export default function Features() {
                   />
                 </div>
                 <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[0].TITLE}</h4>
-                <p className="text-lg text-white text-center">
+                <p className="text-lg text-center">
                   {FEATURES_ITEM_CONTENT[0].TEXT}
                 </p>
               </div>
@@ -67,7 +70,7 @@ export default function Features() {
                   <Image src={money} alt="Stopwatch" className="rounded-full" />
                 </div>
                 <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[1].TITLE}</h4>
-                <p className="text-lg text-white text-center">
+                <p className="text-lg text-center">
                 {FEATURES_ITEM_CONTENT[1].TEXT}
                 </p>
               </div>
@@ -117,7 +120,7 @@ export default function Features() {
                   </g>
                 </svg>
                 <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[2].TITLE}</h4>
-                <p className="text-lg text-white text-center">
+                <p className="text-lg text-center">
                 {FEATURES_ITEM_CONTENT[2].TEXT}
                 </p>
               </div>
@@ -160,7 +163,7 @@ export default function Features() {
                   </g>
                 </svg>
                 <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[3].TITLE}</h4>
-                <p className="text-lg text-white text-center">
+                <p className="text-lg text-center">
                 {FEATURES_ITEM_CONTENT[3].TEXT}
                 </p>
               </div>
@@ -202,7 +205,7 @@ export default function Features() {
                 <h4 className="h4 mb-2 text-center">
                 {FEATURES_ITEM_CONTENT[4].TITLE}
                 </h4>
-                <p className="text-lg text-white text-center">
+                <p className="text-lg text-center">
                 {FEATURES_ITEM_CONTENT[4].TEXT}
                 </p>
               </div>
@@ -249,7 +252,7 @@ export default function Features() {
                   </g>
                 </svg>
                 <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[5].TITLE}</h4>
-                <p className="text-lg text-white text-center">
+                <p className="text-lg text-center">
                 {FEATURES_ITEM_CONTENT[5].TEXT}
                 </p>
               </div>

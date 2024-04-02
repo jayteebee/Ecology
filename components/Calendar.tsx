@@ -9,7 +9,7 @@ const CalendlyForm = () => {
             <h1 className='h2 text-center mb-4'>{CALENDAR_HEADER.HEADER}</h1>
       <InlineWidget styles={{
   height: '900px'
-}} url="https://calendly.com/jethro-z-nh/chat" />
+}} url="https://calendly.com/thermal-vision-research/quick-chat" />
     </div>
   );
 };
