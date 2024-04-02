@@ -46,12 +46,12 @@ export default function Zigzag() {
                   <h3 className="h3 mb-3">{ZIGZAG_ITEM_CONTENT[0].TITLE}</h3>
                   <p className="text-xl text-black-400 mb-4">{ZIGZAG_ITEM_CONTENT[0].TEXT}</p>
                   <ul className="text-lg text-black-400 -mb-2">
-                    <li className="flex items-center mb-2">
+                    {/* <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>{ZIGZAG_ITEM_CONTENT[0].BULLET_ONE}</span>
-                    </li>
+                    </li> */}
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
@@ -121,7 +121,7 @@ export default function Zigzag() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage03} width={640} height={405} alt="Features 03" />
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage03} width={740} height={450} alt="Features 03" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">

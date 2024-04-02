@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Ecology",
-  description: "More information about our ecology package",
+  title: "Thermal Vision Ecology",
+  description: "More information about The Ecology Kit",
 };
 
 import Hero from "@/components/hero";

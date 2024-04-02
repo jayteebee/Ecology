@@ -14,7 +14,7 @@ export const FEATURES_ITEM_CONTENT = [
     },
     {
         TITLE: "Enhanced Detection",
-        TEXT: "Features designed to improve data quality and reduce post-processing time, such as flight tracking and enhanced detection modes against busy backdrops."
+        TEXT: "Features designed to improve data quality and reduce post-processing time, such as flight tracking and enhanced detection modes against busy backdrops, giving definitive absence/presence data."
     },
     {
         TITLE: "BCT compliant",
@@ -39,17 +39,17 @@ export const ZIGZAG_ITEM_CONTENT = [
     {
         INTRO: "What's included?",
         TITLE: "FLIR A700sc camera",
-        TEXT: "By making use of a thermal imaging camera, you can ensure a definitive answer on whether there are bats located within the frame. Our package;",
+        TEXT: "The Thermal Vision Ecology kit comes equipped with everything you need to get started and complete your survey.",
         BULLET_ONE: "Is sensitive to minute differences in temperature.",
-        BULLET_TWO: "Comes with a variety of lenses (6, 14, 24, 42 or 80 degree), ensuring coverage down a long hedge row or a wide gable wall.",
-        BULLET_THREE: "Has a heavy duty Manfrotto tripod.",
-        BULLET_FOUR: "Has a power supply for up to 6 hours filming.",
-        BULLET_FIVE: "Comes with a Windows Touchpad device for remote image streaming and camera control (any laptop can be used if preferred).",
+        BULLET_TWO: "A variety of lenses (6, 14, 24, 42 or 80 degree), ensuring coverage down a long hedge row or a wide gable wall.",
+        BULLET_THREE: "A heavy duty Manfrotto tripod.",
+        BULLET_FOUR: "A power supply for up to 6 hours filming.",
+        BULLET_FIVE: "A Windows Touchpad device for remote image streaming and camera control (any laptop can be used if preferred).",
     },
     {
         INTRO: "Sophisticated Software, Simplified.",
         TITLE: "Hire Options",
-        TEXT: "We're able to offer a flexible hire option, ensuring you have the right equipment for the job, without the need to purchase outright.",
+        TEXT: "We're able to offer a flexible hire option, ensuring you have the right equipment for the job, without the need to purchase outright. For enquiries, please contact: info@thermalvisionresearch.co.uk",
         BULLET_ONE: "Simplify the software for you, showing you the options you need to get the job done.",
         BULLET_TWO: "Show timestamps, replay events, and trigger recording only when a bat is present.",
         BULLET_THREE: "Enable single bat tracking through its entire flight path, showing definitive emergence."
@@ -57,7 +57,7 @@ export const ZIGZAG_ITEM_CONTENT = [
     {
         INTRO: "Scenario dictates equipment.",
         TITLE: "Purchase Options",
-        TEXT: "We understand that thermal imaging can present a budgeting challenge. Due to being a FLIR R&D Science Platinum Partner, we're able to offer a 20% purchase discount for ecologists.",
+        TEXT: "We understand that thermal imaging can present a budgeting challenge. Due to being a FLIR R&D Science Platinum Partner, we're able to offer a 20% purchase discount for ecologists. For more details, please contact: info@thermalvisionresearch.co.uk, 07907054716",
         BULLET_ONE: "On a complex project, where one camera could replace the manpower of 5+ people.",
         BULLET_TWO: "When use of external light sources could affect bat behaviour.",
         BULLET_THREE: "To help identify species in a crowded environment."
