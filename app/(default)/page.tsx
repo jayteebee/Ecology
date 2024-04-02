@@ -27,7 +27,7 @@ export default function Home() {
       <div id="3drender">
         <Zigzag />
       </div>
-      <Testimonials />
+      {/* <Testimonials /> */}
       <div id="calendar">
       <Calendar />
       </div>

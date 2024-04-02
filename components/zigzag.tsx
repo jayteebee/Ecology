@@ -13,7 +13,7 @@ export default function Zigzag() {
         <div className="py-12 md:py-20 border-t border-gray-800">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">The Ecology Package</div>
             <h1 className="h2 mb-4">{ZIGZAG_HEADER.HEADER}</h1>
             <p className="text-xl text-black-400">{ZIGZAG_HEADER.SUBHEADER}</p>
@@ -21,7 +21,7 @@ export default function Zigzag() {
 
           <div style={{position: "relative", paddingTop: "56.25%", height: 0, overflow: "hidden"}}>
   <iframe src="https://lumalabs.ai/embed/3ef325de-03c5-4a38-9e6d-d5025537c4a6?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%", paddingBottom: "10vh"}} title="luma embed" allowFullScreen></iframe>
-</div>
+</div> */}
 
 
 
