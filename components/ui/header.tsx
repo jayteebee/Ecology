@@ -49,15 +49,15 @@ export default function Header() {
                 </p>
               </li>
 
-              <li>
+              {/* <li>
                 <p
                   onClick={(e) => scrollToSection(e, "3drender")}
                   className="font-medium text-green-100 hover:text-blue-500 hover:underline px-4 py-3 flex items-center transition duration-150 ease-in-out cursor-pointer"
                 >
                   3D Render
                 </p>
-              </li>
-              {/* Add more list items here as needed */}
+              </li> */}
+
             </ul>
           </nav>
 
