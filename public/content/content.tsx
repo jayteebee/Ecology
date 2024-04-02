@@ -5,28 +5,28 @@ export const FEATURES_HEADER = {
 
 export const FEATURES_ITEM_CONTENT = [
     {
-        TITLE: "Save Time",
-        TEXT: "Save hours per survey with our high-quality setup, allowing more focus on research insights instead of analyzing footage."
+        TITLE: "Simple Setup",
+        TEXT: "Wireless connection with any Windows/Mac device, avoid cabling issues with integrated power supply included."
     },
     {
-        TITLE: "Save Money",
-        TEXT: "Save money and cut long-term costs by reducing analysis time and avoiding legal risks with more accurate data."
+        TITLE: "Never miss a thing",
+        TEXT: "Record up to 30fps for 6 hours on a single charge, ensuring you never miss an event, providing peace of mind when completing reports and justifying decisions."
     },
     {
-        TITLE: "Increase Accuracy",
-        TEXT: "Take advantage of powerful software features designed to provide highly accurate data, including tracking the path of every bat in the cameras view, as well as date/time stamping of when the event took place."
+        TITLE: "Enhanced Detection",
+        TEXT: "Features designed to improve data quality and reduce post-processing time, such as flight tracking and enhanced detection modes against busy backdrops."
     },
     {
-        TITLE: "Robust, Evidential Reports",
-        TEXT: "False positives can be quite troublesome. The monetary consequences of a wrong call can be severe and there’s potential for litigation if you’re working on a big project. Making use of a thermal camera greatly reduces these risks."
+        TITLE: "BCT compliant",
+        TEXT: "With more and more emphasis placed on the requirement for night vision equipment, ensure you are ahead of the game with industry leading technology."
     },
     {
-        TITLE: "Definitive Absence/Presence",
-        TEXT: "Get definitive presence/absence decisions and frame-by-frame bat emergence tracking with our ecology package."
+        TITLE: "Flexibility",
+        TEXT: "We have FLIR's full range of cameras and lenses available for purchase or hire, so whether you are performing a simple survery, filming a nature documentary, or anything inbetween we have the camera for you."
     },
     {
-        TITLE: "Minimal Setup",
-        TEXT: "Our ecology package is fully portable, can be used in-field without any long cables tracking back to a power source, and will integrate with any tablet or laptop you currently have."
+        TITLE: "Support",
+        TEXT: "Full training and support provided by industry experts included with every hire/ purchase."
     }
 ]
 
@@ -37,12 +37,15 @@ export const ZIGZAG_HEADER = {
 
 export const ZIGZAG_ITEM_CONTENT = [
     {
-        INTRO: "Never miss a bat.",
-        TITLE: "100% Accuracy with Presence/Absence decisions.",
-        TEXT: "By making use of a thermal imaging camera, you can ensure a definitive answer on whether there are bats located within the frame. Our cameras;",
-        BULLET_ONE: "Are sensitive to minute differences in temperature.",
-        BULLET_TWO: "Come with a variety of lenses, ensuring coverage down a long hedge row or a wide gable wall.",
-        BULLET_THREE: "Require no external light to work.",
+        INTRO: "What's included?",
+        TITLE: "FLIR A700sc camera",
+        TEXT: "By making use of a thermal imaging camera, you can ensure a definitive answer on whether there are bats located within the frame. Our package;",
+        BULLET_ONE: "Is sensitive to minute differences in temperature.",
+        BULLET_TWO: "Comes with a variety of lenses, ensuring coverage down a long hedge row or a wide gable wall (6, 14, 24, 42 or 80 degree).",
+        BULLET_THREE: "Has a Heavy duty Manfrotto tripod.",
+        BULLET_FOUR: "Has a power supply for up to 6 hours filming.",
+        BULLET_FIVE: "Comes with a Windows Touchpad device for remote image streaming and camera control (any laptop can be used if preferred).",
+
     },
     {
         INTRO: "Sophisticated Software, Simplified.",
