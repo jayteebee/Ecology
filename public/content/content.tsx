@@ -6,7 +6,7 @@ export const FEATURES_HEADER = {
 export const FEATURES_ITEM_CONTENT = [
     {
         TITLE: "Simple Setup",
-        TEXT: "Wireless connection with any Windows/Mac device, avoid cabling issues with integrated power supply included."
+        TEXT: "Wireless connection with any Windows or Mac device, avoiding cabling issues with an integrated power supply included."
     },
     {
         TITLE: "Never miss a thing",
@@ -14,19 +14,19 @@ export const FEATURES_ITEM_CONTENT = [
     },
     {
         TITLE: "Enhanced Detection",
-        TEXT: "Features designed to improve data quality and reduce post-processing time, such as flight tracking and enhanced detection modes against busy backdrops, giving definitive absence/presence data."
+        TEXT: "Features designed to improve data quality and significantly reduce post-processing time, such as flight tracking and enhanced detection modes against busy backdrops, giving definitive absence/presence data."
     },
     {
         TITLE: "BCT compliant",
-        TEXT: "With more and more emphasis placed on the requirement for night vision equipment, ensure you are ahead of the game with industry leading technology."
+        TEXT: "With the Bat Conservation Trust placing more emphasis on the requirement for night vision equipment, ensure you are ahead of the game with industry leading technology."
     },
     {
         TITLE: "Flexibility",
-        TEXT: "We have FLIR's full range of cameras and lenses available for purchase or hire, so whether you are performing a simple survery, filming a nature documentary, or anything inbetween we have the camera for you."
+        TEXT: "We have FLIR's full range of cameras and lenses available for purchase or hire, so whether you are performing a simple survey, filming a nature documentary, or anything inbetween we have the camera for you."
     },
     {
         TITLE: "Support",
-        TEXT: "Full training and support provided by industry experts included with every hire/ purchase."
+        TEXT: "Full training and support provided by industry experts included with every hire or purchase. Whatever your use-case, we have the knowledge to help you get the most out of your camera."
     }
 ]
 
@@ -61,6 +61,15 @@ export const ZIGZAG_ITEM_CONTENT = [
         BULLET_ONE: "On a complex project, where one camera could replace the manpower of 5+ people.",
         BULLET_TWO: "When use of external light sources could affect bat behaviour.",
         BULLET_THREE: "To help identify species in a crowded environment."
+    },
+    {
+        INTRO: "Training and Support",
+        TITLE: "FLIR Research Studio Software",
+        TEXT: "Access to a host of features, alongside support from our expert team. ",
+        BULLET_ONE: "Fully compatible with your current laptop or computer",
+        BULLET_TWO: "Ability to record, analyse and interpret your survey in real time or in post processing",
+        BULLET_THREE: "Access to the exact time and date an event occurs, such as a bat emerging from a roost",
+        BULLET_FOUR: "Ability to track a single bat, frame by frame through its entire flight path, showing definitive emergence"
     }
 ]
 
