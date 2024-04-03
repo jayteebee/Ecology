@@ -38,9 +38,9 @@ export const ZIGZAG_HEADER = {
 export const ZIGZAG_ITEM_CONTENT = [
     {
         INTRO: "What's included?",
-        TITLE: "FLIR A700sc camera",
+        TITLE: "What's included?",
         TEXT: "The Thermal Vision Ecology kit comes equipped with everything you need to get started and complete your survey.",
-        BULLET_ONE: "Is sensitive to minute differences in temperature.",
+        BULLET_ONE: "FLIR A700sc camera",
         BULLET_TWO: "A variety of lenses (6, 14, 24, 42 or 80 degree), ensuring coverage down a long hedge row or a wide gable wall.",
         BULLET_THREE: "A heavy duty Manfrotto tripod.",
         BULLET_FOUR: "A power supply for up to 6 hours filming.",

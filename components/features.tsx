@@ -29,9 +29,9 @@ export default function Features() {
               <h2 className="h2 mb-4">
                 {FEATURES_HEADER.HEADER}
               </h2>
-              <p className="text-xl">
+              {/* <p className="text-xl">
                 {FEATURES_HEADER.SUBHEADER}
-              </p>
+              </p> */}
             </div>
 
             {/* Items */}
