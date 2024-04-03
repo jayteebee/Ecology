@@ -30,7 +30,7 @@ export default function Zigzag() {
 
 
 
-          {/* Items */}
+          {/* Item */}
           <div className="grid gap-20">
 
             {/* 1st item */}
