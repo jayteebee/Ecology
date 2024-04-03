@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import FeatImage01 from '@/public/images/a700PNG.png'
 import FeatImage02 from '@/public/images/Hire.png'
-import FeatImage03 from '@/public/images/Purchase.png'
+import camCollage from '@/public/images/camCollage.png'
 import frStudio from '@/public/images/frStudio.png'
 import { ZIGZAG_HEADER, ZIGZAG_ITEM_CONTENT } from '@/public/content/content'
 
@@ -37,8 +37,9 @@ export default function Zigzag() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage01} width={540} height={405} alt="Features 01" />
-              </div>
+            <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage01} width={740} height={450} alt="Features 01" />
+          </div>
+
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
@@ -84,12 +85,12 @@ export default function Zigzag() {
             {/* 2nd item */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage02} width={640} height={405} alt="Features 02" />
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0  md:order-1" data-aos="fade-up">
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage02} width={740} height={450} alt="Features 02" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
-                <div className="md:pl-4 lg:pl-12 xl:pl-16">
+                <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   {/* <div className="font-architects-daughter text-xl text-green-200 mb-2">{ZIGZAG_ITEM_CONTENT[1].INTRO}</div> */}
                   <h3 className="h3 mb-3">{ZIGZAG_ITEM_CONTENT[1].TITLE}</h3>
                   <p className="text-xl text-black-400 mb-4">{ZIGZAG_ITEM_CONTENT[1].TEXT}</p>
@@ -121,7 +122,7 @@ export default function Zigzag() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-2xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage03} width={740} height={450} alt="Features 03" />
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={camCollage} width={740} height={450} alt="Features 03" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
@@ -156,12 +157,12 @@ export default function Zigzag() {
                         {/* 4th item */}
                         <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={frStudio} width={640} height={405} alt="Features 02" />
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0  md:order-1" data-aos="fade-up">
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={frStudio} width={740} height={450} alt="Features 02" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
-                <div className="md:pl-4 lg:pl-12 xl:pl-16">
+                <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   {/* <div className="font-architects-daughter text-xl text-green-200 mb-2">{ZIGZAG_ITEM_CONTENT[1].INTRO}</div> */}
                   <h3 className="h3 mb-3">{ZIGZAG_ITEM_CONTENT[3].TITLE}</h3>
                   <p className="text-xl text-black-400 mb-4">{ZIGZAG_ITEM_CONTENT[3].TEXT}</p>

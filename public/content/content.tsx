@@ -57,7 +57,7 @@ export const ZIGZAG_ITEM_CONTENT = [
     {
         INTRO: "Scenario dictates equipment.",
         TITLE: "Purchase Options",
-        TEXT: "We understand that thermal imaging can present a budgeting challenge. Due to being a FLIR R&D Science Platinum Partner, we're able to offer a 20% purchase discount for ecologists. For more details, please contact: info@thermalvisionresearch.co.uk, 07907054716",
+        TEXT: "We have cameras and kits available across the entire FLIR range from £4999. We can help you identify which would be best suited for your needs. For a quote, contact us at: info@thermalvisionresearch.co.uk, 07907054716",
         BULLET_ONE: "On a complex project, where one camera could replace the manpower of 5+ people.",
         BULLET_TWO: "When use of external light sources could affect bat behaviour.",
         BULLET_THREE: "To help identify species in a crowded environment."
@@ -109,5 +109,8 @@ export const MAP_HEADER = [
     {
         HEADER: "By Car"
     },
+    {
+        HEADER: "Why not visit us?"
+    }
 
 ]
