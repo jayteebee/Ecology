@@ -27,7 +27,7 @@ export default function Footer() {
                   />
                 </Link>
               </div>
-              <div className="text-black-400">Thermal Vision Ecology is a division of Thermal Vision Research, a platinum partner and premium distributor for Teledyne FLIR, the loading global manufacturer of thermal vision cameras.</div>
+              <div className="text-black-400">Thermal Vision Ecology is a division of Thermal Vision Research, a platinum partner and premium distributor for Teledyne FLIR, the leading global manufacturer of thermal vision cameras.</div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
