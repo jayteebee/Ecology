@@ -15,18 +15,14 @@ import {FEATURES_HEADER, FEATURES_ITEM_CONTENT} from "../public/content/content"
 
 export default function Features() {
   return (
-    <div >
-{/** 
- *     // <Image
-    //     src={forest}
-    //     layout="fill"
-    //     objectFit="cover"
-    //     quality={100}
-    //     alt="Background"
-    //     className={styles.backgroundImage}
-    //   />
- * 
- */}
+<div>
+      <div className="bg-red-600 text-white text-center text-3xl py-4 md:py-6 w-full flex items-center justify-center" style={{height: '100%'}}>
+  <h1>
+  {FEATURES_HEADER.BANNER}
+  </h1>
+</div>
+
+
       <section className={styles.overlayContent}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="py-12 md:py-20">

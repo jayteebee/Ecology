@@ -1,4 +1,5 @@
 export const FEATURES_HEADER = {
+    BANNER: "EXCLUSIVE LAUNCH DISCOUNT: 50% OFF ALL RENTALS AND 20% OFF ALL PURCHASES!",
     HEADER: "Discover the advantages of using thermal imaging cameras in your ecological surveys.",
     SUBHEADER: "The importance of this topic has grown due to the latest changes in bat survey guidelines, now advising the use of thermal vision cameras."
 }
@@ -48,7 +49,7 @@ export const ZIGZAG_ITEM_CONTENT = [
     },
     {
         INTRO: "Sophisticated Software, Simplified.",
-        TITLE: "Hire Options",
+        TITLE: "Hire ",
         TEXT: "We're able to offer a flexible hire option, ensuring you have the right equipment for the job, without the need to purchase outright. For enquiries, please contact: info@thermalvisionresearch.co.uk",
         BULLET_ONE: "Simplify the software for you, showing you the options you need to get the job done.",
         BULLET_TWO: "Show timestamps, replay events, and trigger recording only when a bat is present.",
@@ -56,7 +57,7 @@ export const ZIGZAG_ITEM_CONTENT = [
     },
     {
         INTRO: "Scenario dictates equipment.",
-        TITLE: "Purchase Options",
+        TITLE: "Purchase ",
         TEXT: "We have cameras and kits available across the entire FLIR range from £4999. We can help you identify which would be best suited for your needs. For a quote, contact us at: info@thermalvisionresearch.co.uk, 07907054716",
         BULLET_ONE: "On a complex project, where one camera could replace the manpower of 5+ people.",
         BULLET_TWO: "When use of external light sources could affect bat behaviour.",
