@@ -3,7 +3,7 @@ import Image from 'next/image'
 import FeatImage01 from '@/public/images/a700PNG.png'
 import FeatImage02 from '@/public/images/Hire.png'
 import camCollage from '@/public/images/camCollage.png'
-import frStudio from "../public/images/frStudio.png"
+import frStudio from "@/public/images/frStudio.png"
 import { ZIGZAG_HEADER, ZIGZAG_ITEM_CONTENT } from '@/public/content/content'
 
 export default function Zigzag() {

@@ -24,6 +24,7 @@ export default function Footer() {
                     src={logo}
                     alt="Stopwatch"
                     width={200}
+                    priority
                   />
                 </Link>
               </div>
