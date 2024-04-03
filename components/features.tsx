@@ -1,5 +1,11 @@
 import stopWatch from "../public/images/stopwatch.png";
 import money from "../public/images/money.png";
+import neverMissAThing from "../public/images/neverMissAThing.png";
+import support from "../public/images/support.png";
+import flexibility from "../public/images/flexibility.png";
+import bctCompliant from "../public/images/bctCompliant.png";
+import enhancedDetection from "../public/images/enhancedDetection.png";
+
 import forest from "../public/images/forestOutline.png";
 
 import styles from "../app/css/styles/Features.module.css";
@@ -67,7 +73,11 @@ export default function Features() {
                 data-aos-anchor="[data-aos-id-blocks]"
               >
                 <div className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden">
-                  <Image src={money} alt="Stopwatch" className="rounded-full" />
+                  <Image
+                    src={neverMissAThing}
+                    alt="Never Miss A Thing"
+                    className="rounded-full"
+                  />
                 </div>
                 <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[1].TITLE}</h4>
                 <p className="text-lg text-center">
@@ -82,43 +92,13 @@ export default function Features() {
                 data-aos-delay="200"
                 data-aos-anchor="[data-aos-id-blocks]"
               >
-                <svg
-                  className="w-16 h-16 mb-4"
-                  viewBox="0 0 64 64"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    className="fill-current text-green-300"
-                    width="64"
-                    height="64"
-                    rx="32"
+                <div className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden">
+                  <Image
+                    src={enhancedDetection}
+                    alt="enhanced Detection"
+                    className="rounded-full"
                   />
-                  <g
-                    transform="translate(21 21)"
-                    strokeLinecap="square"
-                    strokeWidth="2"
-                    fill="none"
-                    fillRule="evenodd"
-                  >
-                    <ellipse
-                      className="stroke-current text-purple-100"
-                      cx="11"
-                      cy="11"
-                      rx="5.5"
-                      ry="11"
-                    />
-                    <path
-                      className="stroke-current text-green-200"
-                      d="M11 0v22M0 11h22"
-                    />
-                    <circle
-                      className="stroke-current text-green-200"
-                      cx="11"
-                      cy="11"
-                      r="11"
-                    />
-                  </g>
-                </svg>
+                </div>
                 <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[2].TITLE}</h4>
                 <p className="text-lg text-center">
                 {FEATURES_ITEM_CONTENT[2].TEXT}
@@ -132,36 +112,13 @@ export default function Features() {
                 data-aos-delay="300"
                 data-aos-anchor="[data-aos-id-blocks]"
               >
-                <svg
-                  className="w-16 h-16 mb-4"
-                  viewBox="0 0 64 64"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    className="fill-current text-green-300"
-                    width="64"
-                    height="64"
-                    rx="32"
+                <div className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden">
+                  <Image
+                    src={bctCompliant}
+                    alt="bct Compliant"
+                    className="rounded-full"
                   />
-                  <g
-                    transform="translate(22 21)"
-                    strokeLinecap="square"
-                    strokeWidth="2"
-                    fill="none"
-                    fillRule="evenodd"
-                  >
-                    <path
-                      className="stroke-current text-purple-100"
-                      d="M17 22v-6.3a8.97 8.97 0 003-6.569A9.1 9.1 0 0011.262 0 9 9 0 002 9v1l-2 5 2 1v4a2 2 0 002 2h4a5 5 0 005-5v-5"
-                    />
-                    <circle
-                      className="stroke-current text-green-200"
-                      cx="13"
-                      cy="9"
-                      r="3"
-                    />
-                  </g>
-                </svg>
+                </div>
                 <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[3].TITLE}</h4>
                 <p className="text-lg text-center">
                 {FEATURES_ITEM_CONTENT[3].TEXT}
@@ -175,33 +132,13 @@ export default function Features() {
                 data-aos-delay="400"
                 data-aos-anchor="[data-aos-id-blocks]"
               >
-                <svg
-                  className="w-16 h-16 mb-4"
-                  viewBox="0 0 64 64"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    className="fill-current text-green-300"
-                    width="64"
-                    height="64"
-                    rx="32"
+                <div className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden">
+                  <Image
+                    src={flexibility}
+                    alt="flexibility"
+                    className="rounded-full"
                   />
-                  <g
-                    strokeLinecap="square"
-                    strokeWidth="2"
-                    fill="none"
-                    fillRule="evenodd"
-                  >
-                    <path
-                      className="stroke-current text-purple-100"
-                      d="M29 42h10.229a2 2 0 001.912-1.412l2.769-9A2 2 0 0042 29h-7v-4c0-2.373-1.251-3.494-2.764-3.86a1.006 1.006 0 00-1.236.979V26l-5 6"
-                    />
-                    <path
-                      className="stroke-current text-green-200"
-                      d="M22 30h4v12h-4z"
-                    />
-                  </g>
-                </svg>
+                </div>
                 <h4 className="h4 mb-2 text-center">
                 {FEATURES_ITEM_CONTENT[4].TITLE}
                 </h4>
@@ -217,40 +154,13 @@ export default function Features() {
                 data-aos-delay="500"
                 data-aos-anchor="[data-aos-id-blocks]"
               >
-                <svg
-                  className="w-16 h-16 mb-4"
-                  viewBox="0 0 64 64"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    className="fill-current text-green-300"
-                    width="64"
-                    height="64"
-                    rx="32"
+                <div className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden">
+                  <Image
+                    src={support}
+                    alt="support"
+                    className="rounded-full"
                   />
-                  <g
-                    transform="translate(21 22)"
-                    strokeLinecap="square"
-                    strokeWidth="2"
-                    fill="none"
-                    fillRule="evenodd"
-                  >
-                    <path
-                      className="stroke-current text-purple-300"
-                      d="M17 2V0M19.121 2.879l1.415-1.415M20 5h2M19.121 7.121l1.415 1.415M17 8v2M14.879 7.121l-1.415 1.415M14 5h-2M14.879 2.879l-1.415-1.415"
-                    />
-                    <circle
-                      className="stroke-current text-green-200"
-                      cx="17"
-                      cy="5"
-                      r="3"
-                    />
-                    <path
-                      className="stroke-current text-purple-100"
-                      d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948"
-                    />
-                  </g>
-                </svg>
+                </div>
                 <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[5].TITLE}</h4>
                 <p className="text-lg text-center">
                 {FEATURES_ITEM_CONTENT[5].TEXT}
