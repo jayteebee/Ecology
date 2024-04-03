@@ -3,7 +3,7 @@ import Image from 'next/image'
 import FeatImage01 from '@/public/images/a700PNG.png'
 import FeatImage02 from '@/public/images/Hire.png'
 import FeatImage03 from '@/public/images/Purchase.png'
-import cameraAndSoftware from '@/public/images/cameraAndSoftware.png'
+import frStudio from '@/public/images/frStudio.png'
 import { ZIGZAG_HEADER, ZIGZAG_ITEM_CONTENT } from '@/public/content/content'
 
 export default function Zigzag() {
@@ -157,7 +157,7 @@ export default function Zigzag() {
                         <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={cameraAndSoftware} width={640} height={405} alt="Features 02" />
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={frStudio} width={640} height={405} alt="Features 02" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
