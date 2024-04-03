@@ -8,7 +8,7 @@ import logo from "../../assets/TVElogo.jpg";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="text-white" style={{backgroundColor: "gray", color: "white"}}>
       <div className="py-12 md:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
@@ -27,7 +27,7 @@ export default function Footer() {
                   />
                 </Link>
               </div>
-              <div className="text-black-400">Thermal Vision Ecology is a division of Thermal Vision Research, a platinum partner and premium distributor for Teledyne FLIR, the leading global manufacturer of thermal vision cameras.</div>
+              <div className="text-white-400">Thermal Vision Ecology is a division of Thermal Vision Research Ltd (08661370), a platinum partner and premium distributor for Teledyne FLIR, the leading global manufacturer of thermal imaging cameras.</div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
@@ -56,7 +56,7 @@ export default function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-black-400 text-sm mr-4">&copy; 2024 Thermal Vision Research. All Rights Reserved.</div>
+            <div className="text-white-400 text-sm mr-4">&copy; 2024 Thermal Vision Research. All Rights Reserved.</div>
 
           </div>
 
