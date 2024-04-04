@@ -1,5 +1,6 @@
 import React from 'react';
 import { MAP_HEADER } from '@/public/content/content';
+import Link from 'next/link';
 
 const Maps: React.FC = () => {
   return (
@@ -9,7 +10,13 @@ const Maps: React.FC = () => {
       {/* <p className="text-xl">{MAP_HEADER.INTRO}</p> */}
       <p className="text-xl mb-2">{MAP_HEADER.INTRO.split('.')[0].trim()}.</p>
 <p className="text-xl">{MAP_HEADER.INTRO.split('.')[1].trim()}.</p>
-<p className="text-xl pt-4">{MAP_HEADER.INTRO.split('.')[2].trim()}.{MAP_HEADER.INTRO.split('.')[3].trim()}.{MAP_HEADER.INTRO.split('.')[4].trim()}.</p>
+<p className="text-xl pt-4">{MAP_HEADER.INTRO.split('.')[2].trim()}</p>
+<div className="text-center">
+                  <Link 
+                  className="text-xl text-blue-500 hover:underline mb-4 text-center"
+                  href="mailto:info@thermalvisionresearch.co.uk">
+        info@thermalvisionresearch.co.uk
+      </Link></div>
 
 
 

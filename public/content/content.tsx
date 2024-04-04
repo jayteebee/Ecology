@@ -50,7 +50,7 @@ export const ZIGZAG_ITEM_CONTENT = [
     {
         INTRO: "Sophisticated Software, Simplified.",
         TITLE: "Hire ",
-        TEXT: "We're able to offer a flexible hire option, ensuring you have the right equipment for the job, without the need to purchase outright. For enquiries, please contact: info@thermalvisionresearch.co.uk",
+        TEXT: "We're able to offer a flexible hire option, ensuring you have the right equipment for the job, without the need to purchase outright. For enquiries, please contact:",
         BULLET_ONE: "Simplify the software for you, showing you the options you need to get the job done.",
         BULLET_TWO: "Show timestamps, replay events, and trigger recording only when a bat is present.",
         BULLET_THREE: "Enable single bat tracking through its entire flight path, showing definitive emergence."
@@ -58,7 +58,7 @@ export const ZIGZAG_ITEM_CONTENT = [
     {
         INTRO: "Scenario dictates equipment.",
         TITLE: "Purchase ",
-        TEXT: "We have cameras and kits available across the entire FLIR range from £4999. We can help you identify which would be best suited for your needs. For a quote, contact us at: info@thermalvisionresearch.co.uk, 07907054716",
+        TEXT: "We have cameras and kits available across the entire FLIR range from £4999. We can help you identify which would be best suited for your needs. For a quote, contact us at:",
         BULLET_ONE: "On a complex project, where one camera could replace the manpower of 5+ people.",
         BULLET_TWO: "When use of external light sources could affect bat behaviour.",
         BULLET_THREE: "To help identify species in a crowded environment."
@@ -102,7 +102,7 @@ export const CALENDAR_HEADER = {
 
 export const MAP_HEADER = 
     {
-        INTRO: "We always love to meet our customers face to face, so why not book an appointment today. We have a modern conference room and training facilities at our office in Bristol. Contact us at info@thermalvisionresearch.co.uk for availability",
+        INTRO: "We always love to meet our customers face to face, so why not book an appointment today. We have a modern conference room and training facilities at our office in Bristol. Contact us at",
         TRAIN: "By Train",
         PLANE: "By Plane",
         CAR: "By Car",

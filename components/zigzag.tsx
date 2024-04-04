@@ -5,6 +5,7 @@ import FeatImage02 from "@/public/images/Hire.png";
 import camCollage from "@/public/images/camCollage.png";
 import frStudio from "@/public/images/frstudio-ezgif.com-webp-to-png-converter.png";
 import { ZIGZAG_HEADER, ZIGZAG_ITEM_CONTENT } from "@/public/content/content";
+import Link from "next/link";
 
 export default function Zigzag() {
   return (
@@ -128,6 +129,13 @@ export default function Zigzag() {
                   <p className="text-xl text-black-400 mb-4 text-center">
                     {ZIGZAG_ITEM_CONTENT[1].TEXT}
                   </p>
+                  <div className="text-center">
+                  <Link 
+                  className="text-xl text-blue-500 hover:underline mb-4 text-center"
+                  href="mailto:info@thermalvisionresearch.co.uk">
+        info@thermalvisionresearch.co.uk
+      </Link></div>
+                  
                   {/* <ul className="text-lg text-black-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -180,6 +188,13 @@ export default function Zigzag() {
                   <p className="text-xl text-black-400 mb-4 text-center">
                     {ZIGZAG_ITEM_CONTENT[2].TEXT}
                   </p>
+                  <div className="text-center">
+                  <Link 
+                  className="text-xl text-blue-500 hover:underline mb-4 text-center"
+                  href="mailto:info@thermalvisionresearch.co.uk">
+        info@thermalvisionresearch.co.uk
+      </Link></div>
+
                   {/* <ul className="text-lg text-black-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
