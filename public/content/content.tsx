@@ -1,6 +1,6 @@
 export const FEATURES_HEADER = {
   BANNER:
-    "EXCLUSIVE LAUNCH DISCOUNT: 50% OFF ALL RENTALS AND 20% OFF ALL PURCHASES!",
+    "EXCLUSIVE LAUNCH DISCOUNT: OVER 50% OFF ALL RENTALS AND 20% OFF ALL PURCHASES!",
   HEADER:
     "Discover the advantages of using thermal imaging cameras in your ecological surveys",
   SUBHEADER:

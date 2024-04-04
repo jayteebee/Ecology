@@ -17,9 +17,11 @@ const Maps: React.FC = () => {
         >
           info@thermalvisionresearch.co.uk
         </Link>
+      <p className="text-xl">07907 054 716</p>
       </div>
 
-      <div className="flex justify-center gap-5 flex-wrap w-full mt-6">
+
+      <div className="flex justify-center gap-5 flex-wrap w-full mt-8">
         <div className="text-center">
           <h2 className="h2 mb-4">{MAP_HEADER.TRAIN}</h2>
           <iframe
