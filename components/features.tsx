@@ -17,16 +17,17 @@ import BookACallButton from "./BookACallButton";
 export default function Features() {
   return (
     <div>
-<div
-  className="bg-red-600 text-white text-center py-4 w-full flex items-center justify-center md:py-6"
-  style={{ height: "100%" }}
->
-  <h1 className="text-xl sm:text-2xl md:text-3xl">{FEATURES_HEADER.BANNER}</h1>
-</div>
-<div className="block md:hidden">
+      <div
+        className="bg-red-600 text-white text-center py-4 w-full flex items-center justify-center md:py-6"
+        style={{ height: "100%" }}
+      >
+        <h1 className="text-xl sm:text-2xl md:text-3xl">
+          {FEATURES_HEADER.BANNER}
+        </h1>
+      </div>
+      <div className="block md:hidden">
         <BookACallButton />
       </div>
-
 
       <section className={styles.overlayContent}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -51,14 +52,27 @@ export default function Features() {
                 data-aos="fade-up"
                 data-aos-anchor="[data-aos-id-blocks]"
               >
-                <div className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden">
+                <div
+                  className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden"
+                  style={{
+                    boxShadow:
+                      "0 4px 6px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.08)",
+                  }}
+                >
                   <Image
                     src={stopWatch}
                     alt="Stopwatch"
                     className="rounded-full"
                   />
                 </div>
-                <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[0].TITLE}</h4>
+                <h4
+                  className="h4 mb-2"
+                  style={{
+                    textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+                  }}
+                >
+                  {FEATURES_ITEM_CONTENT[0].TITLE}
+                </h4>
                 <p className="text-lg text-center">
                   {FEATURES_ITEM_CONTENT[0].TEXT}
                 </p>
@@ -71,14 +85,27 @@ export default function Features() {
                 data-aos="fade-up"
                 data-aos-anchor="[data-aos-id-blocks]"
               >
-                <div className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden">
+                <div
+                  className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden"
+                  style={{
+                    boxShadow:
+                      "0 4px 6px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.08)",
+                  }}
+                >
                   <Image
                     src={neverMissAThing}
                     alt="Never Miss A Thing"
-                    className="rounded-full"
+                    className="rounded-full shadow-3xl"
                   />
                 </div>
-                <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[1].TITLE}</h4>
+                <h4
+                  className="h4 mb-2"
+                  style={{
+                    textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+                  }}
+                >
+                  {FEATURES_ITEM_CONTENT[1].TITLE}
+                </h4>
                 <p className="text-lg text-center">
                   {FEATURES_ITEM_CONTENT[1].TEXT}
                 </p>
@@ -91,14 +118,27 @@ export default function Features() {
                 data-aos-delay="200"
                 data-aos-anchor="[data-aos-id-blocks]"
               >
-                <div className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden">
+                <div
+                  className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden"
+                  style={{
+                    boxShadow:
+                      "0 4px 6px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.08)",
+                  }}
+                >
                   <Image
                     src={enhancedDetection}
                     alt="enhanced Detection"
                     className="rounded-full"
                   />
                 </div>
-                <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[2].TITLE}</h4>
+                <h4
+                  className="h4 mb-2"
+                  style={{
+                    textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+                  }}
+                >
+                  {FEATURES_ITEM_CONTENT[2].TITLE}
+                </h4>
                 <p className="text-lg text-center">
                   {FEATURES_ITEM_CONTENT[2].TEXT}
                 </p>
@@ -111,14 +151,27 @@ export default function Features() {
                 data-aos-delay="300"
                 data-aos-anchor="[data-aos-id-blocks]"
               >
-                <div className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden">
+                <div
+                  className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden"
+                  style={{
+                    boxShadow:
+                      "0 4px 6px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.08)",
+                  }}
+                >
                   <Image
                     src={bctCompliant}
                     alt="bct Compliant"
                     className="rounded-full"
                   />
                 </div>
-                <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[3].TITLE}</h4>
+                <h4
+                  className="h4 mb-2"
+                  style={{
+                    textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+                  }}
+                >
+                  {FEATURES_ITEM_CONTENT[3].TITLE}
+                </h4>
                 <p className="text-lg text-center">
                   {FEATURES_ITEM_CONTENT[3].TEXT}
                 </p>
@@ -131,14 +184,25 @@ export default function Features() {
                 data-aos-delay="400"
                 data-aos-anchor="[data-aos-id-blocks]"
               >
-                <div className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden">
+                <div
+                  className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden"
+                  style={{
+                    boxShadow:
+                      "0 4px 6px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.08)",
+                  }}
+                >
                   <Image
                     src={flexibility}
                     alt="flexibility"
                     className="rounded-full"
                   />
                 </div>
-                <h4 className="h4 mb-2 text-center">
+                <h4
+                  className="h4 mb-2 text-center"
+                  style={{
+                    textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+                  }}
+                >
                   {FEATURES_ITEM_CONTENT[4].TITLE}
                 </h4>
                 <p className="text-lg text-center">
@@ -153,10 +217,23 @@ export default function Features() {
                 data-aos-delay="500"
                 data-aos-anchor="[data-aos-id-blocks]"
               >
-                <div className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden">
+                <div
+                  className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden"
+                  style={{
+                    boxShadow:
+                      "0 4px 6px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.08)",
+                  }}
+                >
                   <Image src={support} alt="support" className="rounded-full" />
                 </div>
-                <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[5].TITLE}</h4>
+                <h4
+                  className="h4 mb-2"
+                  style={{
+                    textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+                  }}
+                >
+                  {FEATURES_ITEM_CONTENT[5].TITLE}
+                </h4>
                 <p className="text-lg text-center">
                   {FEATURES_ITEM_CONTENT[5].TEXT}
                 </p>
