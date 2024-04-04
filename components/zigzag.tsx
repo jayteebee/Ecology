@@ -40,8 +40,8 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   {/* <h1 className="font-architects-daughter text-3xl text-green-200 mb-2">{ZIGZAG_ITEM_CONTENT[0].INTRO}</h1> */}
-                  <h3 className="h3 mb-3">{ZIGZAG_ITEM_CONTENT[0].TITLE}</h3>
-                  <p className="text-xl text-black-400 mb-4">
+                  <h3 className="h3 mb-3 text-center">{ZIGZAG_ITEM_CONTENT[0].TITLE}</h3>
+                  <p className="text-xl text-black-400 mb-4 text-center">
                     {ZIGZAG_ITEM_CONTENT[0].TEXT}
                   </p>
                   <ul className="text-lg text-black-400 -mb-2">
@@ -124,8 +124,8 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   {/* <div className="font-architects-daughter text-xl text-green-200 mb-2">{ZIGZAG_ITEM_CONTENT[1].INTRO}</div> */}
-                  <h3 className="h3 mb-3">{ZIGZAG_ITEM_CONTENT[1].TITLE}</h3>
-                  <p className="text-xl text-black-400 mb-4">
+                  <h3 className="h3 mb-3 text-center">{ZIGZAG_ITEM_CONTENT[1].TITLE}</h3>
+                  <p className="text-xl text-black-400 mb-4 text-center">
                     {ZIGZAG_ITEM_CONTENT[1].TEXT}
                   </p>
                   {/* <ul className="text-lg text-black-400 -mb-2">
@@ -176,8 +176,8 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   {/* <div className="font-architects-daughter text-xl text-green-200 mb-2">{ZIGZAG_ITEM_CONTENT[2].INTRO}</div> */}
-                  <h3 className="h3 mb-3">{ZIGZAG_ITEM_CONTENT[2].TITLE}</h3>
-                  <p className="text-xl text-black-400 mb-4">
+                  <h3 className="h3 mb-3 text-center">{ZIGZAG_ITEM_CONTENT[2].TITLE}</h3>
+                  <p className="text-xl text-black-400 mb-4 text-center">
                     {ZIGZAG_ITEM_CONTENT[2].TEXT}
                   </p>
                   {/* <ul className="text-lg text-black-400 -mb-2">
@@ -228,8 +228,8 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   {/* <div className="font-architects-daughter text-xl text-green-200 mb-2">{ZIGZAG_ITEM_CONTENT[1].INTRO}</div> */}
-                  <h3 className="h3 mb-3">{ZIGZAG_ITEM_CONTENT[3].TITLE}</h3>
-                  <p className="text-xl text-black-400 mb-4">
+                  <h3 className="h3 mb-3 text-center">{ZIGZAG_ITEM_CONTENT[3].TITLE}</h3>
+                  <p className="text-xl text-black-400 mb-4 text-center">
                     {ZIGZAG_ITEM_CONTENT[3].TEXT}
                   </p>
                   <ul className="text-lg text-black-400 -mb-2">
