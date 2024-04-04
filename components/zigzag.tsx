@@ -45,9 +45,9 @@ export default function Zigzag() {
                     {ZIGZAG_ITEM_CONTENT[0].TEXT}
                   </p>
                   <ul className="text-lg text-black-400 -mb-2">
-                    <li className="flex items-center mb-2">
+                    <li className="flex items-start mb-2">
                       <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0 mt-1.5"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -55,9 +55,9 @@ export default function Zigzag() {
                       </svg>
                       <span>{ZIGZAG_ITEM_CONTENT[0].BULLET_ONE}</span>
                     </li>
-                    <li className="flex items-center mb-2">
+                    <li className="flex items-start mb-2">
                       <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0 mt-1.5"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -65,9 +65,9 @@ export default function Zigzag() {
                       </svg>
                       <span>{ZIGZAG_ITEM_CONTENT[0].BULLET_TWO}</span>
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-start">
                       <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0 mt-1.5"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -75,9 +75,9 @@ export default function Zigzag() {
                       </svg>
                       <span>{ZIGZAG_ITEM_CONTENT[0].BULLET_THREE}</span>
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-start">
                       <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0 mt-1.5"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -85,9 +85,9 @@ export default function Zigzag() {
                       </svg>
                       <span>{ZIGZAG_ITEM_CONTENT[0].BULLET_FOUR}</span>
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-start">
                       <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0 mt-1.5"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -219,7 +219,7 @@ export default function Zigzag() {
             </div>
 
             {/* 4th item */}
-            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-start">
 
               {/* Content */}
               <div
@@ -232,10 +232,10 @@ export default function Zigzag() {
                   <p className="text-xl text-black-400 mb-4 text-center">
                     {ZIGZAG_ITEM_CONTENT[3].TEXT}
                   </p>
-                  <ul className="text-lg text-black-400 -mb-2">
-                    <li className="flex items-center mb-2">
+                  <ul className="text-lg text-black-400 -mb-2 items-start">
+                    <li className="flex items-start mb-2">
                       <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0 mt-1.5"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -243,9 +243,9 @@ export default function Zigzag() {
                       </svg>
                       <span>{ZIGZAG_ITEM_CONTENT[3].BULLET_ONE}</span>
                     </li>
-                    <li className="flex items-center mb-2">
+                    <li className="flex items-start mb-2">
                       <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0 mt-1.5"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -253,9 +253,9 @@ export default function Zigzag() {
                       </svg>
                       <span>{ZIGZAG_ITEM_CONTENT[3].BULLET_TWO}</span>
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-start">
                       <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0 mt-1.5"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -263,9 +263,9 @@ export default function Zigzag() {
                       </svg>
                       <span>{ZIGZAG_ITEM_CONTENT[3].BULLET_THREE}</span>
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-start">
                       <svg
-                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0 mt-1.5"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
