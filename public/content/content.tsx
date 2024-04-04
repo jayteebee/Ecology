@@ -102,6 +102,9 @@ export const CALENDAR_HEADER = {
 
 export const MAP_HEADER = [
     {
+        INTRO: "We'd be pleased to meet you in our comfortable conference room with modern facilities. We can provide dedicated training and demos on the cameras you're interested in, all without any obligation on your end. Book a meeting here: info@thermalvisionresearch.co.uk",
+    },
+    {
         HEADER: "By Train"
     },
     {
