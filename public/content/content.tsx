@@ -1,6 +1,6 @@
 export const FEATURES_HEADER = {
     BANNER: "EXCLUSIVE LAUNCH DISCOUNT: 50% OFF ALL RENTALS AND 20% OFF ALL PURCHASES!",
-    HEADER: "Discover the advantages of using thermal imaging cameras in your ecological surveys.",
+    HEADER: "Discover the advantages of using thermal imaging cameras in your ecological surveys",
     SUBHEADER: "The importance of this topic has grown due to the latest changes in bat survey guidelines, now advising the use of thermal vision cameras."
 }
 
@@ -100,21 +100,11 @@ export const CALENDAR_HEADER = {
     HEADER: "Arrange A Call"
 }
 
-export const MAP_HEADER = [
+export const MAP_HEADER = 
     {
-        INTRO: "We'd be pleased to meet you in our comfortable conference room with modern facilities. We can provide dedicated training and demos on the cameras you're interested in, all without any obligation on your end. Book a meeting here: info@thermalvisionresearch.co.uk",
-    },
-    {
-        HEADER: "By Train"
-    },
-    {
-        HEADER: "By Plane"
-    },
-    {
-        HEADER: "By Car"
-    },
-    {
+        INTRO: "We always love to meet our customers face to face, so why not book an appointment today. We have a modern conference room and training facilities at our office in Bristol. Contact us at info@thermalvisionresearch.co.uk for availability",
+        TRAIN: "By Train",
+        PLANE: "By Plane",
+        CAR: "By Car",
         HEADER: "Why not visit us?"
     }
-
-]

@@ -12,6 +12,7 @@ import {
   FEATURES_HEADER,
   FEATURES_ITEM_CONTENT,
 } from "../public/content/content";
+import BookACallButton from "./BookACallButton";
 
 export default function Features() {
   return (
@@ -22,6 +23,9 @@ export default function Features() {
 >
   <h1 className="text-xl sm:text-2xl md:text-3xl">{FEATURES_HEADER.BANNER}</h1>
 </div>
+<div className="block md:hidden">
+        <BookACallButton />
+      </div>
 
 
       <section className={styles.overlayContent}>
@@ -161,6 +165,7 @@ export default function Features() {
           </div>
         </div>
       </section>
+      <BookACallButton />
     </div>
   );
 }
