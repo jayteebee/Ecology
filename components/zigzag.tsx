@@ -32,8 +32,7 @@ export default function Zigzag() {
           {/* Item */}
           <div className="grid gap-20">
             {/* 1st item */}
-            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">  
-
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Content */}
               <div
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
@@ -41,7 +40,9 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   {/* <h1 className="font-architects-daughter text-3xl text-green-200 mb-2">{ZIGZAG_ITEM_CONTENT[0].INTRO}</h1> */}
-                  <h3 className="h3 mb-3 text-center">{ZIGZAG_ITEM_CONTENT[0].TITLE}</h3>
+                  <h3 className="h3 mb-3 text-center">
+                    {ZIGZAG_ITEM_CONTENT[0].TITLE}
+                  </h3>
                   <p className="text-xl text-black-400 mb-4 text-center">
                     {ZIGZAG_ITEM_CONTENT[0].TEXT}
                   </p>
@@ -117,7 +118,6 @@ export default function Zigzag() {
 
             {/* 2nd item */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
-
               {/* Content */}
               <div
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
@@ -125,17 +125,21 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   {/* <div className="font-architects-daughter text-xl text-green-200 mb-2">{ZIGZAG_ITEM_CONTENT[1].INTRO}</div> */}
-                  <h3 className="h3 mb-3 text-center">{ZIGZAG_ITEM_CONTENT[1].TITLE}</h3>
+                  <h3 className="h3 mb-3 text-center">
+                    {ZIGZAG_ITEM_CONTENT[1].TITLE}
+                  </h3>
                   <p className="text-xl text-black-400 mb-4 text-center">
                     {ZIGZAG_ITEM_CONTENT[1].TEXT}
                   </p>
                   <div className="text-center">
-                  <Link 
-                  className="text-xl text-blue-500 hover:underline mb-4 text-center"
-                  href="mailto:info@thermalvisionresearch.co.uk">
-        info@thermalvisionresearch.co.uk
-      </Link></div>
-                  
+                    <Link
+                      className="text-xl text-blue-500 hover:underline mb-4 text-center"
+                      href="mailto:info@thermalvisionresearch.co.uk"
+                    >
+                      info@thermalvisionresearch.co.uk
+                    </Link>
+                  </div>
+
                   {/* <ul className="text-lg text-black-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -176,7 +180,6 @@ export default function Zigzag() {
 
             {/* 3rd item */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
-
               {/* Content */}
               <div
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
@@ -184,16 +187,20 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   {/* <div className="font-architects-daughter text-xl text-green-200 mb-2">{ZIGZAG_ITEM_CONTENT[2].INTRO}</div> */}
-                  <h3 className="h3 mb-3 text-center">{ZIGZAG_ITEM_CONTENT[2].TITLE}</h3>
+                  <h3 className="h3 mb-3 text-center">
+                    {ZIGZAG_ITEM_CONTENT[2].TITLE}
+                  </h3>
                   <p className="text-xl text-black-400 mb-4 text-center">
                     {ZIGZAG_ITEM_CONTENT[2].TEXT}
                   </p>
                   <div className="text-center">
-                  <Link 
-                  className="text-xl text-blue-500 hover:underline mb-4 text-center"
-                  href="mailto:info@thermalvisionresearch.co.uk">
-        info@thermalvisionresearch.co.uk
-      </Link></div>
+                    <Link
+                      className="text-xl text-blue-500 hover:underline mb-4 text-center"
+                      href="mailto:info@thermalvisionresearch.co.uk"
+                    >
+                      info@thermalvisionresearch.co.uk
+                    </Link>
+                  </div>
 
                   {/* <ul className="text-lg text-black-400 -mb-2">
                     <li className="flex items-center mb-2">
@@ -235,7 +242,6 @@ export default function Zigzag() {
 
             {/* 4th item */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-start">
-
               {/* Content */}
               <div
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
@@ -243,7 +249,9 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   {/* <div className="font-architects-daughter text-xl text-green-200 mb-2">{ZIGZAG_ITEM_CONTENT[1].INTRO}</div> */}
-                  <h3 className="h3 mb-3 text-center">{ZIGZAG_ITEM_CONTENT[3].TITLE}</h3>
+                  <h3 className="h3 mb-3 text-center">
+                    {ZIGZAG_ITEM_CONTENT[3].TITLE}
+                  </h3>
                   <p className="text-xl text-black-400 mb-4 text-center">
                     {ZIGZAG_ITEM_CONTENT[3].TEXT}
                   </p>
