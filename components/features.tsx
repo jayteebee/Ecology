@@ -1,25 +1,26 @@
 import stopWatch from "../public/images/stopwatch.png";
-import money from "../public/images/money.png";
 import neverMissAThing from "../public/images/neverMissAThing.png";
 import support from "../public/images/support.png";
 import flexibility from "../public/images/flexibility.png";
 import bctCompliant from "../public/images/bctCompliant.png";
 import enhancedDetection from "../public/images/enhancedDetection.png";
 
-import forest from "../public/images/forestOutline.png";
-
 import styles from "../app/css/styles/Features.module.css";
 
 import Image from "next/image";
-import {FEATURES_HEADER, FEATURES_ITEM_CONTENT} from "../public/content/content";
+import {
+  FEATURES_HEADER,
+  FEATURES_ITEM_CONTENT,
+} from "../public/content/content";
 
 export default function Features() {
   return (
-<div>
-      <div className="bg-red-600 text-white text-center text-3xl py-4 md:py-6 w-full flex items-center justify-center" style={{height: '100%'}}>
-  <h1>
-  {FEATURES_HEADER.BANNER}
-  </h1>
+    <div>
+<div
+  className="bg-red-600 text-white text-center py-4 w-full flex items-center justify-center md:py-6"
+  style={{ height: "100%" }}
+>
+  <h1 className="text-xl sm:text-2xl md:text-3xl">{FEATURES_HEADER.BANNER}</h1>
 </div>
 
 
@@ -28,9 +29,7 @@ export default function Features() {
           <div className="py-12 md:py-20">
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-              <h2 className="h2 mb-4">
-                {FEATURES_HEADER.HEADER}
-              </h2>
+              <h2 className="h2 mb-4">{FEATURES_HEADER.HEADER}</h2>
               {/* <p className="text-xl">
                 {FEATURES_HEADER.SUBHEADER}
               </p> */}
@@ -77,7 +76,7 @@ export default function Features() {
                 </div>
                 <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[1].TITLE}</h4>
                 <p className="text-lg text-center">
-                {FEATURES_ITEM_CONTENT[1].TEXT}
+                  {FEATURES_ITEM_CONTENT[1].TEXT}
                 </p>
               </div>
 
@@ -97,7 +96,7 @@ export default function Features() {
                 </div>
                 <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[2].TITLE}</h4>
                 <p className="text-lg text-center">
-                {FEATURES_ITEM_CONTENT[2].TEXT}
+                  {FEATURES_ITEM_CONTENT[2].TEXT}
                 </p>
               </div>
 
@@ -117,7 +116,7 @@ export default function Features() {
                 </div>
                 <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[3].TITLE}</h4>
                 <p className="text-lg text-center">
-                {FEATURES_ITEM_CONTENT[3].TEXT}
+                  {FEATURES_ITEM_CONTENT[3].TEXT}
                 </p>
               </div>
 
@@ -136,10 +135,10 @@ export default function Features() {
                   />
                 </div>
                 <h4 className="h4 mb-2 text-center">
-                {FEATURES_ITEM_CONTENT[4].TITLE}
+                  {FEATURES_ITEM_CONTENT[4].TITLE}
                 </h4>
                 <p className="text-lg text-center">
-                {FEATURES_ITEM_CONTENT[4].TEXT}
+                  {FEATURES_ITEM_CONTENT[4].TEXT}
                 </p>
               </div>
 
@@ -151,15 +150,11 @@ export default function Features() {
                 data-aos-anchor="[data-aos-id-blocks]"
               >
                 <div className="w-16 h-16 mb-4 rounded-full bg-green-300 flex items-center justify-center overflow-hidden">
-                  <Image
-                    src={support}
-                    alt="support"
-                    className="rounded-full"
-                  />
+                  <Image src={support} alt="support" className="rounded-full" />
                 </div>
                 <h4 className="h4 mb-2">{FEATURES_ITEM_CONTENT[5].TITLE}</h4>
                 <p className="text-lg text-center">
-                {FEATURES_ITEM_CONTENT[5].TEXT}
+                  {FEATURES_ITEM_CONTENT[5].TEXT}
                 </p>
               </div>
             </div>

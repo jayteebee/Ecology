@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Thermal Vision Ecology",
-  description: "More information about The Ecology Kit",
+  description: "Learn more about The Ecology Kit, provided by Thermal Vision Ecology",
 };
 
 import Hero from "@/components/hero";
@@ -18,7 +18,9 @@ export default function Home() {
     <>
       <Hero />
       <div>
-        <ModalVideo video="/videos/video.mp4" />
+        <ModalVideo 
+         video="/videos/video.mp4"
+         mobileVideo="/videos/mobileVideo.mp4" />
       </div>
 
       <div id="features">
