@@ -11,11 +11,15 @@ const BookACallButton = () => {
   };
 
   return (
-    <div className="flex justify-center mt-6">
+    <div className="flex justify-center mt-6"
+    >
       <button
         onClick={(e) => scrollToSection(e, "calendar")}
         className="font-semibold text-white bg-green-300 hover:bg-green-100 border border-transparent hover:border-green-700 px-6 py-3 rounded-lg shadow-lg hover:shadow-xl transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 cursor-pointer"
-      >
+        style={{
+            boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.08)' 
+          }}
+     >
         Arrange A Call
       </button>
     </div>

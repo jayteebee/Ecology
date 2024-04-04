@@ -13,7 +13,11 @@ export default function Zigzag() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <div className="inline-flex text-xl font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">
+            <div className="inline-flex text-xl font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4"
+                            style={{
+                              boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.08)' 
+                            }}
+            >
               The Thermal Vision Ecology Kit
             </div>
           </div>
@@ -40,7 +44,11 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   {/* <h1 className="font-architects-daughter text-3xl text-green-200 mb-2">{ZIGZAG_ITEM_CONTENT[0].INTRO}</h1> */}
-                  <h3 className="h3 mb-3 text-center">
+                  <h3 className="h3 mb-3 text-center"
+                    style={{
+                      textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+                    }}
+                  >
                     {ZIGZAG_ITEM_CONTENT[0].TITLE}
                   </h3>
                   <p className="text-xl text-black-400 mb-4 text-center">
@@ -125,7 +133,11 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   {/* <div className="font-architects-daughter text-xl text-green-200 mb-2">{ZIGZAG_ITEM_CONTENT[1].INTRO}</div> */}
-                  <h3 className="h3 mb-3 text-center">
+                  <h3 className="h3 mb-3 text-center"
+                    style={{
+                      textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+                    }}
+                  >
                     {ZIGZAG_ITEM_CONTENT[1].TITLE}
                   </h3>
                   <p className="text-xl text-black-400 mb-4 text-center">
@@ -187,7 +199,11 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   {/* <div className="font-architects-daughter text-xl text-green-200 mb-2">{ZIGZAG_ITEM_CONTENT[2].INTRO}</div> */}
-                  <h3 className="h3 mb-3 text-center">
+                  <h3 className="h3 mb-3 text-center"
+                    style={{
+                      textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+                    }}
+                  >
                     {ZIGZAG_ITEM_CONTENT[2].TITLE}
                   </h3>
                   <p className="text-xl text-black-400 mb-4 text-center">
@@ -249,7 +265,11 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   {/* <div className="font-architects-daughter text-xl text-green-200 mb-2">{ZIGZAG_ITEM_CONTENT[1].INTRO}</div> */}
-                  <h3 className="h3 mb-3 text-center">
+                  <h3 className="h3 mb-3 text-center"
+                    style={{
+                      textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+                    }}
+                  >
                     {ZIGZAG_ITEM_CONTENT[3].TITLE}
                   </h3>
                   <p className="text-xl text-black-400 mb-4 text-center">
