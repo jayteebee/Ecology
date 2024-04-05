@@ -11,9 +11,9 @@ const Maps: React.FC = () => {
         }}
       >{MAP_HEADER.HEADER}</h2>
       {/* <p className="text-xl">{MAP_HEADER.INTRO}</p> */}
-      <p className="text-xl mb-2">{MAP_HEADER.INTRO.split(".")[0].trim()}.</p>
-      <p className="text-xl">{MAP_HEADER.INTRO.split(".")[1].trim()}.</p>
-      <p className="text-xl pt-4">{MAP_HEADER.INTRO.split(".")[2].trim()}</p>
+      <p className="text-xl text-center mb-2">{MAP_HEADER.INTRO.split(".")[0].trim()}.</p>
+      <p className="text-xl text-center">{MAP_HEADER.INTRO.split(".")[1].trim()}.</p>
+      <p className="text-xl pt-4 text-center">{MAP_HEADER.INTRO.split(".")[2].trim()}</p>
       <div className="text-center">
         <Link
           className="text-xl text-blue-500 hover:underline mb-4 text-center"
