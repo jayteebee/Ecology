@@ -37,6 +37,7 @@ export const FEATURES_ITEM_CONTENT = [
 export const ZIGZAG_HEADER = {
   HEADER: "Fully Portable, Easy To Use",
   SUBHEADER: "Below you can interact with a 3d render of the ecology package.",
+  INTRO: "The Thermal Vision Ecology Kit"
 };
 
 export const ZIGZAG_ITEM_CONTENT = [

@@ -13,12 +13,12 @@ export default function Zigzag() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <div className="inline-flex text-xl font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4"
+            <div className="inline-flex text-xl font-semibold py-1 px-3 m-2 text-white bg-green-300 rounded-full mb-4"
                             style={{
                               boxShadow: '0 4px 6px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.08)' 
                             }}
             >
-              The Thermal Vision Ecology Kit
+              {ZIGZAG_HEADER.INTRO}
             </div>
           </div>
           {/* Section header */}
