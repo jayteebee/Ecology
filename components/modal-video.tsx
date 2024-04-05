@@ -44,10 +44,11 @@ export default function AutoPlayVideo({ video, mobileVideo }: VideoProps) {
       <video
         ref={videoRef}
         src={currentVideo} 
-        autoPlay
+        // autoPlay
         muted
         loop
         className="w-full h-3/4 object-cover"
+        playsInline
       >
         Your browser does not support the video tag.
       </video>
