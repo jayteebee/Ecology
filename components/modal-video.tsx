@@ -68,6 +68,12 @@ export default function AutoPlayVideo({ video, mobileVideo }: VideoProps) {
   const [currentVideo, setCurrentVideo] = useState(video);
   const [isLoading, setIsLoading] = useState(true);
 
+
+  useEffect(() => {
+    setIsLoading(true); 
+  }, [])
+
+  // for changing video source based on screen width
   useEffect(() => {
     const updateVideoSource = () => {
       const screenWidth = window.innerWidth;
@@ -76,7 +82,7 @@ export default function AutoPlayVideo({ video, mobileVideo }: VideoProps) {
       } else {
         setCurrentVideo(video);
       }
-      setIsLoading(true); // Reset spinner to show when video source changes
+      // setIsLoading(true); 
     };
 
     updateVideoSource();
