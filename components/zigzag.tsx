@@ -146,9 +146,9 @@ export default function Zigzag() {
                   <div className="text-center">
                     <Link
                       className="text-xl text-blue-500 hover:underline mb-4 text-center"
-                      href="mailto:info@thermalvisionresearch.co.uk"
+                      href="mailto:jethro@thermalvisionresearch.co.uk"
                     >
-                      info@thermalvisionresearch.co.uk
+                      enquiries@thermalvisionresearch.co.uk
                     </Link>
                   </div>
 
@@ -212,9 +212,9 @@ export default function Zigzag() {
                   <div className="text-center">
                     <Link
                       className="text-xl text-blue-500 hover:underline mb-4 text-center"
-                      href="mailto:info@thermalvisionresearch.co.uk"
+                      href="mailto:jethro@thermalvisionresearch.co.uk"
                     >
-                      info@thermalvisionresearch.co.uk
+                      enquiries@thermalvisionresearch.co.uk
                     </Link>
                   </div>
 
