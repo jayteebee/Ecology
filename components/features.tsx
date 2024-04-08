@@ -38,11 +38,11 @@ export default function Features() {
 
   </div>
   <div className="w-full md:w-1/3 mx-auto text-center">
-    <blockquote className="text-lg text-black-400 grow inline-block"><span className="text-6xl text-green-300 pt-2" style={{ fontFamily: "Georgia", verticalAlign: 'center'  }}>"</span>{TESTIMONIAL_ITEM_CONTENT[3].TEXT}<span className="text-7xl text-green-300 px-2" style={{ fontFamily: "Times New Roman", verticalAlign: 'top'  }}>"</span></blockquote>
+    <blockquote className="text-lg text-black-400 grow inline-block"><span className="text-6xl text-green-300 pt-2" style={{ fontFamily: "Georgia", verticalAlign: 'bottom'  }}>"</span>{TESTIMONIAL_ITEM_CONTENT[3].TEXT}<span className="text-7xl text-green-300 px-2" style={{ fontFamily: "Times New Roman", verticalAlign: 'top'  }}>"</span></blockquote>
 
   </div>
 
-  <div className="text-black-700 font-medium mt-6 pt-5 border-t border-gray-700 w-full md:w-1/3 mx-auto text-center">
+  <div className="text-black-700 font-medium mt-6 pt-2 border-t border-gray-700 w-full md:w-1/3 mx-auto text-center">
     <cite className="text-black-200 not-italic">{TESTIMONIAL_ITEM_CONTENT[3].NAME}</cite> - <a className="text-green-300 hover:text-black-200 transition duration-150 ease-in-out" href="#0">{TESTIMONIAL_ITEM_CONTENT[3].COMPANY}</a>
   </div>
 </div>
