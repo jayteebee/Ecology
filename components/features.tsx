@@ -4,6 +4,8 @@ import support from "../public/images/support.png";
 import flexibility from "../public/images/flexibility.png";
 import bctCompliant from "../public/images/bctCompliant.png";
 import enhancedDetection from "../public/images/enhancedDetection.png";
+import richard from '@/public/images/richardCrompton.jpeg'
+
 
 import styles from "../app/css/styles/Features.module.css";
 
@@ -31,7 +33,7 @@ export default function Features() {
  <div className="flex items-center justify-center flex-col h-full p-6 bg-gray-800" data-aos="fade-up">
   <div>
     <div className="relative inline-flex flex-col mb-4">
-      <Image className="rounded-full" src={TESTIMONIAL_ITEM_CONTENT[3].IMAGE} width={111} height={111} alt="Testimonial 01" />
+      <Image className="rounded-full" src={richard} width={111} height={111} alt="Testimonial 01" />
     </div>
 
   </div>
