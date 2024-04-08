@@ -113,7 +113,7 @@ export const TESTIMONIAL_ITEM_CONTENT = [
     COMPANY: "Company C",
   },
   {
-    TEXT: "I am delighted to be collaborating with TVR to identify the best technology for ecological - and especially bat - surveys to provide the best possible equipment to improve surveying standards. Using TVRs industry leading expertise it is now possible to provide high-end technology to provide a complete package deployment on either hire or purchase basis at a price to suit any project.",
+    TEXT: "I am delighted to be collaborating with Thermal Vision Ecology to identify the best technology for ecological - and especially bat - surveys to provide the best possible equipment to improve surveying standards. Using Thermal Vision Ecologies industry leading expertise it is now possible to provide high-end technology to provide a complete package deployment on either hire or purchase basis at a price to suit any project.",
     NAME: "Richard Crompton",
     COMPANY: "Specialist Bat Ecologist, Advisor, Trainer.",
     IMAGE: richard,
