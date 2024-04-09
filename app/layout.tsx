@@ -21,6 +21,7 @@ const architects_daughter = Architects_Daughter({
 export const metadata = {
   title: "Thermal Vision Ecology",
   description: "View The Ecology Kit here.",
+  
 };
 
 export default function RootLayout({

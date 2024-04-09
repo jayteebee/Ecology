@@ -13,10 +13,15 @@ import Calendar from "@/components/Calendar";
 
 import Maps from "../../components/Maps";
 import { useRef } from "react";
+import Head from "next/head";
+import tveLogo from "../../assets/TVElogo.jpg"
 
 export default function Home() {
   return (
     <>
+    <Head>
+      <meta property="og:image" content="../../assets/TVElogo.jpg" />
+    </Head>
       <Hero />
       <div>
         <ModalVideo
