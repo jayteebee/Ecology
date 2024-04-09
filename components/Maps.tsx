@@ -19,7 +19,7 @@ const Maps: React.FC = () => {
           className="text-xl text-blue-500 hover:underline mb-4 text-center"
           href="mailto:jethro@thermalvisionresearch.co.uk"
         >
-          enquiries@thermalvisionresearch.co.uk
+          enquiries@thermalvisionecology.co.uk
         </Link>
       <p className="text-xl">07907 054 716</p>
       </div>

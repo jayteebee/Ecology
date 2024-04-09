@@ -148,7 +148,7 @@ export default function Zigzag() {
                       className="text-xl text-blue-500 hover:underline mb-4 text-center"
                       href="mailto:jethro@thermalvisionresearch.co.uk"
                     >
-                      enquiries@thermalvisionresearch.co.uk
+                      enquiries@thermalvisionecology.co.uk
                     </Link>
                   </div>
 
@@ -214,7 +214,7 @@ export default function Zigzag() {
                       className="text-xl text-blue-500 hover:underline mb-4 text-center"
                       href="mailto:jethro@thermalvisionresearch.co.uk"
                     >
-                      enquiries@thermalvisionresearch.co.uk
+                      enquiries@thermalvisionecology.co.uk
                     </Link>
                   </div>
 
