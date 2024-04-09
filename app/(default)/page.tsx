@@ -2,6 +2,7 @@ export const metadata = {
   title: "Thermal Vision Ecology",
   description:
     "Learn more about The Ecology Kit, provided by Thermal Vision Ecology",
+    image: "../../assets/TVElogo.jpg",
 };
 
 import Hero from "@/components/hero";
@@ -19,9 +20,7 @@ import tveLogo from "../../assets/TVElogo.jpg"
 export default function Home() {
   return (
     <>
-    <Head>
-      <meta property="og:image" content="../../assets/TVElogo.jpg" />
-    </Head>
+
       <Hero />
       <div>
         <ModalVideo
