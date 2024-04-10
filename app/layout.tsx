@@ -4,6 +4,8 @@ import { Inter, Architects_Daughter } from "next/font/google";
 
 import Header from "@/components/ui/header";
 import Footer from "@/components/ui/footer";
+import { GoogleTagManager } from "@next/third-parties/google"
+
 
 const inter = Inter({
   subsets: ["latin"],
@@ -31,6 +33,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+    <GoogleTagManager gtmId="GTM-TK53DNXC" />
+
       <body
         className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gray-900 tracking-tight`}
       >
