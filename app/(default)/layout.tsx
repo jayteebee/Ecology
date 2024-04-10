@@ -8,6 +8,8 @@ import 'aos/dist/aos.css'
 import PageIllustration from '@/components/page-illustration'
 import Footer from '@/components/ui/footer'
 import { LinkedInInsightTag } from 'nextjs-linkedin-insight-tag'
+import {GoogleTagManager} from "@next/third-parties/google"
+
 
 export default function DefaultLayout({
   children,
@@ -32,6 +34,7 @@ export default function DefaultLayout({
 
         {children}
     <LinkedInInsightTag />
+    <GoogleTagManager gtmId="GTM-TK53DNXC" />
       </main>
 
       {/* <Footer /> */}
