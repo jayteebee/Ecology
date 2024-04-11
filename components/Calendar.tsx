@@ -39,7 +39,6 @@
 import React from 'react';
 import { InlineWidget, useCalendlyEventListener } from 'react-calendly';
 import { CALENDAR_HEADER } from '@/public/content/content';
-
 import { sendGTMEvent } from '@next/third-parties/google'
 
 
@@ -54,7 +53,7 @@ const CalendlyForm = () => {
   useCalendlyEventListener({
     onEventScheduled: (e) => {
       // Trigger the LinkedIn Insight Tag event when an event is scheduled
-
+     // sendGTMEvent({ event: 'buttonClicked', value: 'xyz' }) 
       window.lintrk('track', { conversion_id: 16159916  }); // ecologists booking a call 2
       window.lintrk('track', { conversion_id: 16159980 }); // booked appt
 
@@ -86,5 +85,3 @@ const CalendlyForm = () => {
 };
 
 export default CalendlyForm;
-
-
