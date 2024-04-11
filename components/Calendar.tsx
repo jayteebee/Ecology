@@ -38,8 +38,10 @@
 
 import React from 'react';
 import { InlineWidget, useCalendlyEventListener } from 'react-calendly';
-import { useRouter } from 'next/router'; // Import useRouter
 import { CALENDAR_HEADER } from '@/public/content/content';
+
+import { sendGTMEvent } from '@next/third-parties/google'
+
 
 declare global {
   interface Window {
@@ -48,24 +50,23 @@ declare global {
 }
 
 const CalendlyForm = () => {
-  const router = useRouter(); // Use the useRouter hook
-
   // Setting up the event listener for Calendly events
   useCalendlyEventListener({
     onEventScheduled: (e) => {
       // Trigger the LinkedIn Insight Tag event when an event is scheduled
-      window.lintrk('track', { conversion_id: 16159916 });
-      window.lintrk('track', { conversion_id: 16159980 });
+
+      window.lintrk('track', { conversion_id: 16159916  }); // ecologists booking a call 2
+      window.lintrk('track', { conversion_id: 16159980 }); // booked appt
 
       console.log('Event Scheduled:', e.data.payload);
-
-      // Update the URL without causing a page reload or navigating away
-      router.push(`${router.asPath}/thank-you`, undefined, { shallow: true });
     }
   });
 
   return (
-    <div className="flex justify-center items-center"> 
+    <div className="flex justify-center items-center"> {/* Use min-h-screen to ensure it takes at least the full height */}
+      {/* Use responsive width utilities: 
+          w-full for mobile to use the full width.
+          max-w-none for desktop to remove the max-width restriction. */}
       <div className="w-full max-w-4xl px-4 sm:px-6 lg:max-w-none">
         <h1
           className="h2 text-center mb-4"
