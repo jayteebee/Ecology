@@ -54,7 +54,9 @@ const CalendlyForm = () => {
     onEventScheduled: (e) => {
       // Trigger the LinkedIn Insight Tag event when an event is scheduled
 
-      window.lintrk('track', { conversion_id: 16159980 });
+      window.lintrk('track', { conversion_id: 16159916  }); // ecologists booking a call 2
+      window.lintrk('track', { conversion_id: 16159980 }); // booked appt
+
       console.log('Event Scheduled:', e.data.payload);
     }
   });
