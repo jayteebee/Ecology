@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image";
+import { StaticImageData } from 'next/image';
 import { useState } from "react";
 import Swipe from "react-easy-swipe";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
@@ -21,15 +22,11 @@ import kitSix from "../public/kit/kitSix.jpeg";
 
 interface Image {
   id: number;
-  src: string;
+  src: StaticImageData;
   alt: string;
 }
 
-interface CarouselProps {
-  images: Image[];
-}
-
-export default function Carousel({ images }: CarouselProps) {
+export default function Carousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const handleNextSlide = () => {
@@ -43,7 +40,7 @@ export default function Carousel({ images }: CarouselProps) {
   };
 
   // Dummy data for images array
-  const dummyImages = [
+  const images = [
     {
       id: 1,
       src: kitOne,
@@ -76,8 +73,7 @@ export default function Carousel({ images }: CarouselProps) {
       },
   ];
 
-  // Use dummyImages if images prop is not provided
-  images = images || dummyImages;
+
 
   return (
     <div className="relative">

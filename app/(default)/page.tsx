@@ -13,9 +13,6 @@ import Testimonials from "@/components/testimonials";
 import Calendar from "@/components/Calendar";
 
 import Maps from "../../components/Maps";
-import { useRef } from "react";
-import Head from "next/head";
-import tveLogo from "../../assets/TVElogo.jpg"
 import Gallery from "@/components/Gallery";
 
 export default function Home() {
@@ -41,7 +38,7 @@ export default function Home() {
         <Calendar />
       </div>
       <div id="gallery">
-      <Gallery />
+      <Gallery  />
       </div>
       <div id="maps">
         <Maps />
