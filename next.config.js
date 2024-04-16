@@ -3,12 +3,12 @@
 const nextConfig = {
   
   images: {
-    domains: ['www.thermalvisionecology.com'],
+    domains: ['https://www.thermalvisionecology.co.uk'],
   },
   openGraph: {
     images: [
       {
-        url: "https://www.thermalvisionecology.com/assets/TVElogo.jpg",
+        url: "https://www.thermalvisionecology.co.uk/assets/TVElogo.jpg",
         width: 800,
         height: 600,
         alt: 'Thermal Vision Ecology Logo',
