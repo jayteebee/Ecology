@@ -9,7 +9,8 @@ const Maps: React.FC = () => {
         style={{
           textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
         }}
-      >{MAP_HEADER.HEADER}</h2>
+      >{MAP_HEADER.HEADER}
+      </h2>
       {/* <p className="text-xl">{MAP_HEADER.INTRO}</p> */}
       <p className="text-xl text-center mb-2">{MAP_HEADER.INTRO.split(".")[0].trim()}.</p>
       <p className="text-xl text-center">{MAP_HEADER.INTRO.split(".")[1].trim()}.</p>
