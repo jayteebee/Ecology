@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-import tveLogo from "./assets/TVElogo.jpg"
 
 const nextConfig = {
   
@@ -9,7 +8,7 @@ const nextConfig = {
   openGraph: {
     images: [
       {
-        url: {tveLogo},
+        url: "https://www.thermalvisionecology.com/assets/TVElogo.jpg",
         width: 800,
         height: 600,
         alt: 'Thermal Vision Ecology Logo',
