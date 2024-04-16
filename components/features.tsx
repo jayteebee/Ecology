@@ -4,6 +4,8 @@ import support from "../public/images/support.png";
 import flexibility from "../public/images/flexibility.png";
 import bctCompliant from "../public/images/bctCompliant.png";
 import enhancedDetection from "../public/images/enhancedDetection.png";
+import richard from '@/public/images/richardCrompton.jpeg'
+
 
 import styles from "../app/css/styles/Features.module.css";
 
@@ -11,6 +13,7 @@ import Image from "next/image";
 import {
   FEATURES_HEADER,
   FEATURES_ITEM_CONTENT,
+  TESTIMONIAL_ITEM_CONTENT
 } from "../public/content/content";
 import BookACallButton from "./BookACallButton";
 
@@ -25,6 +28,28 @@ export default function Features() {
           {FEATURES_HEADER.BANNER}
         </h1>
       </div>
+
+
+ <div className="flex items-center justify-center flex-col h-full p-6 bg-gray-800" data-aos="fade-up">
+  <div>
+    <div className="relative inline-flex flex-col mb-4">
+      <Image className="rounded-full" src={richard} width={111} height={111} alt="Testimonial 01" />
+    </div>
+
+  </div>
+  <div className="w-full md:w-1/3 mx-auto text-center">
+    <blockquote className="text-lg text-black-400 grow inline-block"><span className="text-6xl text-green-300 pt-2" style={{ fontFamily: "Georgia", verticalAlign: 'bottom'  }}>"</span>{TESTIMONIAL_ITEM_CONTENT[3].TEXT}<span className="text-7xl text-green-300 px-2" style={{ fontFamily: "Times New Roman", verticalAlign: 'top'  }}>"</span></blockquote>
+
+  </div>
+
+  <div className="text-black-700 font-medium mt-6 pt-2 border-t border-gray-700 w-full md:w-1/3 mx-auto text-center">
+    <cite className="text-black-200 not-italic">{TESTIMONIAL_ITEM_CONTENT[3].NAME}</cite> - <a className="text-green-300 hover:text-black-200 transition duration-150 ease-in-out" href="#0">{TESTIMONIAL_ITEM_CONTENT[3].COMPANY}</a>
+  </div>
+</div>
+
+
+
+
       <div className="block md:hidden">
         <BookACallButton />
       </div>

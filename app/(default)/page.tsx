@@ -2,6 +2,7 @@ export const metadata = {
   title: "Thermal Vision Ecology",
   description:
     "Learn more about The Ecology Kit, provided by Thermal Vision Ecology",
+    image: "../../assets/TVElogo.jpg",
 };
 
 import Hero from "@/components/hero";
@@ -13,10 +14,13 @@ import Calendar from "@/components/Calendar";
 
 import Maps from "../../components/Maps";
 import { useRef } from "react";
+import Head from "next/head";
+import tveLogo from "../../assets/TVElogo.jpg"
 
 export default function Home() {
   return (
     <>
+
       <Hero />
       <div>
         <ModalVideo
