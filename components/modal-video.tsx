@@ -1,61 +1,5 @@
 "use client";
 
-// import { useRef, useEffect, useState } from "react";
-
-// interface VideoProps {
-//   video: string;
-//   mobileVideo: string;
-// }
-
-// export default function AutoPlayVideo({ video, mobileVideo }: VideoProps) {
-//   const videoRef = useRef<HTMLVideoElement>(null);
-
-//   const [currentVideo, setCurrentVideo] = useState(video);
-
-//   useEffect(() => {
-
-//     const updateVideoSource = () => {
-
-//       const screenWidth = window.innerWidth;
-//       if (screenWidth < 768) {
-//         setCurrentVideo(mobileVideo);
-//       } else {
-//         setCurrentVideo(video);
-//       }
-//     };
-
-
-//     updateVideoSource();
-//     window.addEventListener("resize", updateVideoSource);
-
-
-//     return () => window.removeEventListener("resize", updateVideoSource);
-//   }, [video, mobileVideo]);
-
-//   useEffect(() => {
-
-//     if (videoRef.current) {
-//       videoRef.current.play();
-//     }
-//   }, [currentVideo]);
-
-//   return (
-//     <div className="w-full h-full flex justify-center items-center relative">
-//       <video
-//         ref={videoRef}
-//         src={currentVideo} 
-//         // autoPlay
-//         muted
-//         loop
-//         className="w-full h-3/4 object-cover"
-//         playsInline
-//       >
-//         Your browser does not support the video tag.
-//       </video>
-//     </div>
-//   );
-// }
-
 import { useRef, useEffect, useState } from "react";
 
 interface VideoProps {
@@ -65,13 +9,14 @@ interface VideoProps {
 
 export default function AutoPlayVideo({ video, mobileVideo }: VideoProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
+
   const [currentVideo, setCurrentVideo] = useState(video);
   const [isLoading, setIsLoading] = useState(true);
-
 
   useEffect(() => {
     setIsLoading(true); 
   }, [])
+
 
   // for changing video source based on screen width
   useEffect(() => {
@@ -82,7 +27,6 @@ export default function AutoPlayVideo({ video, mobileVideo }: VideoProps) {
       } else {
         setCurrentVideo(video);
       }
-      // setIsLoading(true); 
     };
 
     updateVideoSource();
@@ -90,6 +34,8 @@ export default function AutoPlayVideo({ video, mobileVideo }: VideoProps) {
 
     return () => window.removeEventListener("resize", updateVideoSource);
   }, [video, mobileVideo]);
+
+
 
   useEffect(() => {
     if (videoRef.current) {
