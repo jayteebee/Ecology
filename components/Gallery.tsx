@@ -85,7 +85,7 @@ export default function Carousel() {
       </h2>
       <AiOutlineLeft
         onClick={handlePrevSlide}
-        className="absolute left-0 m-auto text-5xl inset-y-1/2 cursor-pointer text-gray-400 z-20"
+        className="absolute left-0 m-auto text-5xl inset-y-1/2 cursor-pointer text-black-400 z-20"
       />
       <div className="w-full h-[75vh] flex overflow-hidden relative m-auto">
         <Swipe
@@ -113,7 +113,7 @@ export default function Carousel() {
       </div>
       <AiOutlineRight
         onClick={handleNextSlide}
-        className="absolute right-0 m-auto text-5xl inset-y-1/2 cursor-pointer text-gray-400 z-20"
+        className="absolute right-0 m-auto text-5xl inset-y-1/2 cursor-pointer text-black-400 z-20"
       />
 
       <div className="relative flex justify-center p-2">
@@ -122,8 +122,8 @@ export default function Carousel() {
             <div
               className={
                 index === currentSlide
-                  ? "h-4 w-4 bg-gray-700 rounded-full mx-2 mb-2 cursor-pointer"
-                  : "h-4 w-4 bg-gray-300 rounded-full mx-2 mb-2 cursor-pointer"
+                  ? "h-4 w-4 bg-black-700 rounded-full mx-2 mb-2 cursor-pointer"
+                  : "h-4 w-4 bg-black-300 rounded-full mx-2 mb-2 cursor-pointer"
               }
               key={index}
               onClick={() => {
