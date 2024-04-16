@@ -18,7 +18,18 @@ import kitSix from "../public/kit/kitSix.jpeg";
  * @param images - Array of images with src and alt attributes
  * @returns React component
  */
-export default function Carousel({ images }) {
+
+interface Image {
+  id: number;
+  src: string;
+  alt: string;
+}
+
+interface CarouselProps {
+  images: Image[];
+}
+
+export default function Carousel({ images }: CarouselProps) {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const handleNextSlide = () => {
@@ -86,7 +97,7 @@ export default function Carousel({ images }) {
           onSwipeRight={handlePrevSlide}
           className="relative z-10 w-full h-full"
         >
-          {images.map((image, index) => {
+          {images.map((image: Image, index: number) => {
             if (index === currentSlide) {
               return (
                 <div key={image.id} className="w-full h-full relative">
