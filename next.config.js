@@ -3,7 +3,7 @@
 const nextConfig = {
   
   images: {
-    domains: ['https://www.thermalvisionecology.co.uk'],
+    domains: ['www.thermalvisionecology.co.uk'],
   },
   openGraph: {
     images: [
