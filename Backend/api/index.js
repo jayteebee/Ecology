@@ -11,7 +11,13 @@ const PORT = process.env.PORT || 3001;
 // Middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use(cors());
+
+// Configure CORS with specific options
+app.use(cors({
+  origin: 'https://www.thermalvisionecology.co.uk', // Replace with your frontend URL
+  methods: ['GET', 'POST'], // Specify allowed HTTP methods
+  allowedHeaders: ['Content-Type', 'Authorization'], // Specify allowed headers
+}));
 
 
 const EMAIL = process.env.EMAIL;
