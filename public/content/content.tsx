@@ -121,7 +121,7 @@ export const TESTIMONIAL_ITEM_CONTENT = [
 
 ];
 export const CALENDAR_HEADER = {
-  HEADER: "Arrange A Call",
+  HEADER: "Booking Enquiry Form",
 };
 
 export const MAP_HEADER = {

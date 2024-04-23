@@ -36,7 +36,7 @@ export default function Header() {
                   onClick={(e) => scrollToSection(e, "calendar")}
                   className="font-medium text-green-100 hover:text-blue-500 hover:underline px-4 py-3 flex items-center transition duration-150 ease-in-out cursor-pointer"
                 >
-                  Arrange A Call
+                  Send Enquiry
                 </p>
               </li>
 
