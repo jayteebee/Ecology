@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 // Configure CORS with specific options
 app.use(cors({
-  origin: 'https://www.thermalvisionecology.co.uk', // Replace with your frontend URL
+  origin: 'thermalvisionecology.co.uk', // Replace with your frontend URL
   methods: ['GET', 'POST'], // Specify allowed HTTP methods
   allowedHeaders: ['Content-Type', 'Authorization'], // Specify allowed headers
 }));
