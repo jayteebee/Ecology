@@ -36,7 +36,15 @@ interface FormValues {
 }
 
 
-
+const axiosInstance = axios.create({
+  baseURL: process.env.NODE_ENV === 'production' 
+  ? 'https://ecology-backend-g5phtd16c-jayteebees-projects.vercel.app' 
+              : 'http://localhost:3001',
+  headers: {
+      'Content-Type': 'application/json',
+      "Access-Control-Allow-Origin": "*",
+  },
+});
 
 const CalendlyForm = () => {
   const [submitSuccess, setSubmitSuccess] = useState(false);
@@ -46,7 +54,7 @@ const CalendlyForm = () => {
   const onSubmit = async (values: FormValues) => {  
   // axios.defaults.baseURL = 'http://localhost:3001'; 
   // axios.defaults.baseURL = 'https://www.thermalvisionecology.co.uk'; 
-  axios.defaults.baseURL = 'https://ecology-backend-g5phtd16c-jayteebees-projects.vercel.app';
+  // axios.defaults.baseURL = 'https://ecology-backend-g5phtd16c-jayteebees-projects.vercel.app';
 
 
     try {
