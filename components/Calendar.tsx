@@ -58,7 +58,7 @@ const CalendlyForm = () => {
 
 
     try {
-      await axios.post('/send-email', values);
+      await axiosInstance.post('/send-email', values);
       console.log('Email sent successfully');
       setSubmitSuccess(true)
     } catch (error) {
