@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 // Configure CORS with specific options
 app.use(cors({
-  origin: ['https://thermalvisionecology.co.uk', "http://localhost:3000", "thermalvisionecology.co.uk"], // Replace with your frontend URL
+  origin: ['https://www.thermalvisionecology.co.uk', "http://localhost:3000", "thermalvisionecology.co.uk", "ecology-jmm8ns2nq-jayteebees-projects.vercel.app"], // Replace with your frontend URL
   methods: ['POST'], // Specify allowed HTTP methods
   allowedHeaders: ['Content-Type', 'Authorization'], // Specify allowed headers
 }));
