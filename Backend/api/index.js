@@ -28,8 +28,10 @@ const PASSWORD = process.env.PASSWORD;
 const transporter = nodemailer.createTransport({
   service: 'Gmail',
   auth: {
-    user: process.env.EMAIL,
-    pass: process.env.PASSWORD, 
+    // user: process.env.EMAIL,
+    user: "jethro@thermalvisionresearch.co.uk",
+    // pass: process.env.PASSWORD, 
+    pass: "ThermalVR2k4"
   },
 });
 
