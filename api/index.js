@@ -29,9 +29,9 @@ const transporter = nodemailer.createTransport({
   service: 'Gmail',
   auth: {
     // user: process.env.EMAIL,
-    user: "jethro@thermalvisionresearch.co.uk",
+    user: EMAIL,
     // pass: process.env.PASSWORD, 
-    pass: "ThermalVR2k4"
+    pass: PASSWORD
   },
 });
 
