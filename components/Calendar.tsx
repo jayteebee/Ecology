@@ -45,7 +45,7 @@ const CalendlyForm = () => {
   
   const onSubmit = async (values: FormValues) => {  
   // axios.defaults.baseURL = 'http://localhost:3001'; 
-  axios.defaults.baseURL = 'https://www.thermalvisionecology.co.uk'; 
+  axios.defaults.baseURL = 'thermalvisionecology.co.uk'; 
     try {
       await axios.post('/send-email', values);
       console.log('Email sent successfully');
