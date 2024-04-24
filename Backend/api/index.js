@@ -25,20 +25,17 @@ const PASSWORD = process.env.PASSWORD;
 
 
 // Nodemailer setup
-console.log(process.env.EMAIL, process.env.PASSWORD)
 const transporter = nodemailer.createTransport({
   service: 'Gmail',
   auth: {
     user: process.env.EMAIL,
-    // user: "jethro@thermalvisionresearch.co.uk", 
     pass: process.env.PASSWORD, 
-    // pass: "ThermalVR2k4"
   },
 });
 
 // Route to handle form submission
 app.post('/send-email', (req, res) => {
-  const { fullName, email, dates, cameras, project } = req.body;
+  const { fullName, email, dates, cameras, project, phoneNumber } = req.body;
 
   // Email content
   const mailOptions = {
@@ -48,6 +45,7 @@ app.post('/send-email', (req, res) => {
     text: `
       Full Name: ${fullName}
       Email: ${email}
+      Phone Number: ${phoneNumber}
       Dates Needed: ${dates}
       Cameras Needed: ${cameras}
       Project Details: ${project}
