@@ -45,9 +45,12 @@ const CalendlyForm = () => {
   
   const onSubmit = async (values: FormValues) => {  
   // axios.defaults.baseURL = 'http://localhost:3001'; 
-  axios.defaults.baseURL = 'https://www.thermalvisionecology.co.uk'; 
+  // axios.defaults.baseURL = 'https://www.thermalvisionecology.co.uk'; 
+  axios.defaults.baseURL = 'https://ecology-backend-g5phtd16c-jayteebees-projects.vercel.app';
+
+
     try {
-      await axios.post('/api/send-email', values);
+      await axios.post('/send-email', values);
       console.log('Email sent successfully');
       setSubmitSuccess(true)
     } catch (error) {
