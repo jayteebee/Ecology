@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState } from 'react';
-import { InlineWidget, useCalendlyEventListener } from 'react-calendly';
+
 import { CALENDAR_HEADER } from '@/public/content/content';
 import { sendGTMEvent } from '@next/third-parties/google'
 import { Formik, Form, Field, ErrorMessage } from 'formik';
@@ -59,6 +59,20 @@ const CalendlyForm = () => {
     }
     console.log('Form submitted with values:', values);
   };
+
+  // const onSubmit = async (values: FormValues) => {
+  //   try {
+  //     const response = await axios.post('/api/', values); // Ensure your API route in Next.js starts with '/api/'
+  //     console.log('Email sent successfully:', response.data);
+  //     setSubmitSuccess(true);
+  //     setSubmitError(false);
+  //   } catch (error) {
+  //     console.error('Error sending email:', error);
+  //     setSubmitError(true);
+  //     setSubmitSuccess(false);
+  //   }
+  //   console.log('Form submitted with values:', values);
+  // };
 
 
   return (
