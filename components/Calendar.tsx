@@ -74,22 +74,22 @@ const CalendlyForm = () => {
             <Form className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 mx-auto pb-6"> {/* Center the form horizontally and set width */}
               <div className="mb-4">
                 <label htmlFor="fullName" className="block mb-1" style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)" }}>Full Name</label>
-                <Field type="text" id="fullName" name="fullName" className="w-full border-gray-300 rounded-md p-2  placeholder-black-500" placeholder="Full Name here.." />
+                <Field type="text" id="fullName" name="fullName" className="w-full border-gray-300 rounded-md p-2  placeholder-black-500"  />
                 <ErrorMessage name="fullName" component="div" className="text-red-600" />
               </div>
               <div className="mb-4">
                 <label htmlFor="email" className="block mb-1" style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)" }}>Email</label>
-                <Field type="email" id="email" name="email" className="w-full border-gray-300 rounded-md p-2 placeholder-black-500" placeholder="Email Address here.." />
+                <Field type="email" id="email" name="email" className="w-full border-gray-300 rounded-md p-2 placeholder-black-500"  />
                 <ErrorMessage name="email" component="div" className="text-red-600" />
               </div>
               <div className="mb-4">
                 <label htmlFor="phoneNumber" className="block mb-1" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)' }}>Phone Number (optional)</label>
-                <Field type="tel" id="phoneNumber" name="phoneNumber" className="w-full border-gray-300 rounded-md p-2 placeholder-black-500" placeholder="Phone Number here.." />
+                <Field type="tel" id="phoneNumber" name="phoneNumber" className="w-full border-gray-300 rounded-md p-2 placeholder-black-500"  />
                 <ErrorMessage name="phoneNumber" component="div" className="text-red-600" />
               </div>
               <div className="mb-4">
                 <label htmlFor="dates" className="block mb-1" style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)" }}>Dates Needed</label>
-                <Field type="text" id="dates" name="dates" className="w-full border-gray-300 rounded-md p-2 placeholder-black-500" placeholder="Select dates. Can be a single day, 2+ consecutive days, or multiple individual days..." />
+                <Field type="text" id="dates" name="dates" className="w-full border-gray-300 rounded-md p-2 placeholder-black-500" rows="2" placeholder="Single day, 2+ consecutive days, or multiple individual days..." />
                 <ErrorMessage name="dates" component="div" className="text-red-600" />
               </div>
               <div className="mb-4">
