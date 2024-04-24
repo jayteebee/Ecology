@@ -5,16 +5,6 @@ const nextConfig = {
   images: {
     domains: ['www.thermalvisionecology.co.uk'],
   },
-  openGraph: {
-    images: [
-      {
-        url: "https://www.thermalvisionecology.co.uk/public/images/TVElogo.jpg",
-        width: 800,
-        height: 600,
-        alt: 'Thermal Vision Ecology Logo',
-      },
-    ],
-  },
 }
 
 
