@@ -89,6 +89,16 @@ export const ZIGZAG_ITEM_CONTENT = [
     BULLET_FOUR:
       "Ability to track a single bat, frame by frame through its entire flight path, showing definitive emergence",
   },
+  {
+    INTRO: "Training and Support",
+    TITLE: "Distance Measuring",
+    TEXT: "Use this chart to help understand how many cameras you may need. ",
+    BULLET_ONE: "Accurately apply your projects requirements to the cameras capabilities",
+    BULLET_TWO:
+      "Make a judgement on your camera positioning, and whether you'll need additional cameras to cover the area",
+
+
+  },
 ];
 
 export const TESTIMONIAL_HEADER = {

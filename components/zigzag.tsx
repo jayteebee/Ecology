@@ -3,6 +3,8 @@ import Image from "next/image";
 import FeatImage01 from "@/public/images/a700PNG.png";
 import FeatImage02 from "@/public/images/Hire.png";
 import camCollage from "@/public/images/camCollage.png";
+import distances from "@/public/images/distances.png";
+
 import frStudio from "@/public/images/frstudio-ezgif.com-webp-to-png-converter.png";
 import { ZIGZAG_HEADER, ZIGZAG_ITEM_CONTENT } from "@/public/content/content";
 import Link from "next/link";
@@ -328,6 +330,66 @@ export default function Zigzag() {
                 <Image
                   className="mx-auto"
                   src={frStudio}
+                  width={740}
+                  height={450}
+                  alt="Features 02"
+                />
+              </div>
+            </div>
+{/**5th item */}
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Content */}
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
+                data-aos="fade-left"
+              >
+                <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                  {/* <div className="font-architects-daughter text-xl text-green-200 mb-2">{ZIGZAG_ITEM_CONTENT[1].INTRO}</div> */}
+                  <h3 className="h3 mb-3 text-center"
+                    style={{
+                      textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+                    }}
+                  >
+                    {ZIGZAG_ITEM_CONTENT[4].TITLE}
+                  </h3>
+                  <p className="text-xl text-black-400 mb-4 text-center">
+                    {ZIGZAG_ITEM_CONTENT[4].TEXT}
+                  </p>
+                  <ul className="text-lg text-black-400 -mb-2 items-start">
+                    <li className="flex items-start mb-2">
+                      <svg
+                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0 mt-1.5"
+                        viewBox="0 0 12 12"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>{ZIGZAG_ITEM_CONTENT[4].BULLET_ONE}</span>
+                    </li>
+                    <li className="flex items-start mb-2">
+                      <svg
+                        className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0 mt-1.5"
+                        viewBox="0 0 12 12"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>{ZIGZAG_ITEM_CONTENT[4].BULLET_TWO}</span>
+                    </li>
+
+
+                  </ul>
+                </div>
+              </div>
+              {/* Image */}
+
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 pt-8"
+                data-aos="fade-up"
+              >
+                <Image
+                  className="mx-auto"
+                  src={distances}
                   width={740}
                   height={450}
                   alt="Features 02"
