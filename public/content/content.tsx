@@ -13,7 +13,7 @@ export const FEATURES_HEADER = {
 export const FEATURES_ITEM_CONTENT = [
   {
     TITLE: "Simple Setup",
-    TEXT: "Wireless connection with any Windows or Mac device, avoiding cabling issues with an integrated power supply included.",
+    TEXT: "Wired or Wireless connection with any Windows or Mac device, avoiding cabling issues with an integrated power supply included.",
   },
   {
     TITLE: "Never miss a thing",
