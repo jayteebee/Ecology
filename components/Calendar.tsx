@@ -38,12 +38,11 @@ interface FormValues {
 
 const axiosInstance = axios.create({
   baseURL: process.env.NODE_ENV === 'production' 
-  // ? 'https://ecology-backend-g5phtd16c-jayteebees-projects.vercel.app' 
-  ? "https://ecologybackend.netlify.app"
+  ? 'https://ecology-backend-g5phtd16c-jayteebees-projects.vercel.app' 
+  // ? "https://ecologybackend.netlify.app"
               : 'http://localhost:3001',
   headers: {
       'Content-Type': 'application/json',
-
       "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
 
 
