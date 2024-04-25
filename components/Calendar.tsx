@@ -12,7 +12,9 @@ const validationSchema = Yup.object().shape({
   dates: Yup.string().required('Dates are required'),
   cameras: Yup.number().required('Number of cameras is required').min(1, 'Must be at least 1').max(6, 'Cannot be more than 6'),
   project: Yup.string().required('Project is required'),
-  fullName: Yup.string().required('Full Name is required'),
+  firstName: Yup.string().required('First Name is required'),
+  lastName: Yup.string().required('Last Name is required'),
+  companyName: Yup.string().required('Company Name is required'),
   email: Yup.string().required('Email is required').email('Invalid email'),
   phoneNumber: Yup.string(),
 });
@@ -21,7 +23,9 @@ const initialValues = {
   dates: '',
   cameras: 0,
   project: '',
-  fullName: '',
+  firstName: '',
+  lastName: '',
+  companyName: '',
   email: '',
   phoneNumber : ''
 };
@@ -30,7 +34,9 @@ interface FormValues {
   dates: string;
   cameras: number;
   project: string;
-  fullName: string;
+  firstName: string;
+  lastName: string;
+  companyName: string;
   email: string;
   phoneNumber: string;
 }
@@ -54,36 +60,20 @@ const CalendlyForm = () => {
 
   
   const onSubmit = async (values: FormValues) => {  
-  // axios.defaults.baseURL = 'http://localhost:3001'; 
-  // axios.defaults.baseURL = 'https://www.thermalvisionecology.co.uk'; 
-  // axios.defaults.baseURL = 'https://ecology-backend-g5phtd16c-jayteebees-projects.vercel.app';
-
-
     try {
-      await axiosInstance.post('/send-email', values);
+      const submissionWithDate = {
+        ...values,
+        submittedAt: new Date().toISOString() // Adds the current date and time in ISO format
+      };
+      await axiosInstance.post('/send-email', submissionWithDate);
       console.log('Email sent successfully');
       setSubmitSuccess(true)
     } catch (error) {
       console.error('Error sending email:', error);
       setSubmitError(true);
     }
-    console.log('Form submitted with values:', values);
+    console.log('Form submitted');
   };
-
-  // const onSubmit = async (values: FormValues) => {
-  //   try {
-  //     const response = await axios.post('/api/', values); // Ensure your API route in Next.js starts with '/api/'
-  //     console.log('Email sent successfully:', response.data);
-  //     setSubmitSuccess(true);
-  //     setSubmitError(false);
-  //   } catch (error) {
-  //     console.error('Error sending email:', error);
-  //     setSubmitError(true);
-  //     setSubmitSuccess(false);
-  //   }
-  //   console.log('Form submitted with values:', values);
-  // };
-
 
   return (
     <div className="flex justify-center items-center min-h-screen"> {/* Center the form vertically */}
@@ -100,9 +90,19 @@ const CalendlyForm = () => {
           {({ errors, touched }) => (
             <Form className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 mx-auto pb-6"> {/* Center the form horizontally and set width */}
               <div className="mb-4">
-                <label htmlFor="fullName" className="block mb-1" style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)" }}>Full Name</label>
-                <Field type="text" id="fullName" name="fullName" className="w-full border-gray-300 rounded-md p-2  placeholder-black-500"  />
-                <ErrorMessage name="fullName" component="div" className="text-red-600" />
+                <label htmlFor="firstName" className="block mb-1" style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)" }}>First Name</label>
+                <Field type="text" id="firstName" name="firstName" className="w-full border-gray-300 rounded-md p-2  placeholder-black-500"  />
+                <ErrorMessage name="firstName" component="div" className="text-red-600" />
+              </div>
+              <div className="mb-4">
+                <label htmlFor="lastName" className="block mb-1" style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)" }}>Last Name</label>
+                <Field type="text" id="lastName" name="lastName" className="w-full border-gray-300 rounded-md p-2  placeholder-black-500"  />
+                <ErrorMessage name="lastName" component="div" className="text-red-600" />
+              </div>
+              <div className="mb-4">
+                <label htmlFor="companyName" className="block mb-1" style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)" }}>Company Name</label>
+                <Field type="text" id="companyName" name="companyName" className="w-full border-gray-300 rounded-md p-2 placeholder-black-500"  />
+                <ErrorMessage name="companyName" component="div" className="text-red-600" />
               </div>
               <div className="mb-4">
                 <label htmlFor="email" className="block mb-1" style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)" }}>Email</label>
