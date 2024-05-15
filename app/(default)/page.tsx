@@ -14,6 +14,7 @@ import Calendar from "@/components/Calendar";
 
 import Maps from "../../components/Maps";
 import Gallery from "@/components/Gallery";
+import FAQs from "@/components/ui/FAQs";
 
 export default function Home() {
   return (
@@ -34,6 +35,9 @@ export default function Home() {
         <Zigzag />
       </div>
       {/* <Testimonials /> */}
+      <div id="FAQ">
+        <FAQs />
+      </div>
       <div id="calendar">
         <Calendar />
       </div>
