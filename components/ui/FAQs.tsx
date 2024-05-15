@@ -7,10 +7,10 @@ interface FAQItem {
 }
 
 const faqData: FAQItem[] = [
-  {
-    question: 'Are there any discounts available?',
-    answer: 'Yes, all Ecologists are entitled to a discount.',
-  },
+  // {
+  //   question: 'Are there any discounts available?',
+  //   answer: 'Yes, all Ecologists are entitled to a discount.',
+  // },
   {
     question: 'What time period counts as a "Day" for hire?',
     answer: 'One day means 9am the day before till 5pm following day.',
